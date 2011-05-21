@@ -1,0 +1,338 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A96C31FB1387E58000516CCB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A96C31FA1387E58000516CCB /* Cocoa.framework */; };
+		A96C31FD1387E58000516CCB /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A96C31FC1387E58000516CCB /* MacRuby.framework */; };
+		A96C32041387E58000516CCB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A96C32021387E58000516CCB /* InfoPlist.strings */; };
+		A96C32071387E58000516CCB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A96C32061387E58000516CCB /* main.m */; };
+		A96C320B1387E58100516CCB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A96C32091387E58100516CCB /* MainMenu.xib */; };
+		A96C320E1387E58100516CCB /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = A96C320D1387E58100516CCB /* rb_main.rb */; };
+		A96C32101387E58100516CCB /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = A96C320F1387E58100516CCB /* AppDelegate.rb */; };
+		A96C321A1387E5B700516CCB /* CorePlot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A96C32191387E5B700516CCB /* CorePlot.framework */; };
+		A96C321C1387E60700516CCB /* Controller.rb in Resources */ = {isa = PBXBuildFile; fileRef = A96C321B1387E60700516CCB /* Controller.rb */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A96C31F61387E58000516CCB /* CorePlot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CorePlot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A96C31FA1387E58000516CCB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		A96C31FC1387E58000516CCB /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = System/Library/Frameworks/MacRuby.framework; sourceTree = SDKROOT; };
+		A96C32011387E58000516CCB /* CorePlot-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CorePlot-Info.plist"; sourceTree = "<group>"; };
+		A96C32031387E58000516CCB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A96C32051387E58000516CCB /* CorePlot-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CorePlot-Prefix.pch"; sourceTree = "<group>"; };
+		A96C32061387E58000516CCB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A96C320A1387E58100516CCB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A96C320D1387E58100516CCB /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
+		A96C320F1387E58100516CCB /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+		A96C32191387E5B700516CCB /* CorePlot.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CorePlot.framework; path = ../../../Library/Frameworks/CorePlot.framework; sourceTree = "<group>"; };
+		A96C321B1387E60700516CCB /* Controller.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = Controller.rb; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A96C31F31387E58000516CCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A96C321A1387E5B700516CCB /* CorePlot.framework in Frameworks */,
+				A96C31FB1387E58000516CCB /* Cocoa.framework in Frameworks */,
+				A96C31FD1387E58000516CCB /* MacRuby.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A96C31EB1387E58000516CCB = {
+			isa = PBXGroup;
+			children = (
+				A96C31FF1387E58000516CCB /* CorePlot */,
+				A96C31F91387E58000516CCB /* Frameworks */,
+				A96C31F71387E58000516CCB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A96C31F71387E58000516CCB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A96C31F61387E58000516CCB /* CorePlot.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A96C31F91387E58000516CCB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A96C32191387E5B700516CCB /* CorePlot.framework */,
+				A96C31FA1387E58000516CCB /* Cocoa.framework */,
+				A96C31FC1387E58000516CCB /* MacRuby.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A96C31FF1387E58000516CCB /* CorePlot */ = {
+			isa = PBXGroup;
+			children = (
+				A96C321B1387E60700516CCB /* Controller.rb */,
+				A96C320F1387E58100516CCB /* AppDelegate.rb */,
+				A96C32081387E58100516CCB /* Resources */,
+				A96C320C1387E58100516CCB /* Other Sources */,
+				A96C32001387E58000516CCB /* Supporting Files */,
+			);
+			path = CorePlot;
+			sourceTree = "<group>";
+		};
+		A96C32001387E58000516CCB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A96C32011387E58000516CCB /* CorePlot-Info.plist */,
+				A96C32021387E58000516CCB /* InfoPlist.strings */,
+				A96C32051387E58000516CCB /* CorePlot-Prefix.pch */,
+				A96C32061387E58000516CCB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A96C32081387E58100516CCB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A96C32091387E58100516CCB /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A96C320C1387E58100516CCB /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				A96C320D1387E58100516CCB /* rb_main.rb */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		A96C31FE1387E58000516CCB /* Deployment */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "--compile --embed";
+			buildConfigurationList = A96C32161387E58100516CCB /* Build configuration list for PBXLegacyTarget "Deployment" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/local/bin/macruby_deploy;
+			dependencies = (
+			);
+			name = Deployment;
+			passBuildSettingsInEnvironment = 1;
+			productName = Deployment;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		A96C31F51387E58000516CCB /* CorePlot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A96C32131387E58100516CCB /* Build configuration list for PBXNativeTarget "CorePlot" */;
+			buildPhases = (
+				A96C31F21387E58000516CCB /* Sources */,
+				A96C31F31387E58000516CCB /* Frameworks */,
+				A96C31F41387E58000516CCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CorePlot;
+			productName = CorePlot;
+			productReference = A96C31F61387E58000516CCB /* CorePlot.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A96C31ED1387E58000516CCB /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = A96C31F01387E58000516CCB /* Build configuration list for PBXProject "CorePlot" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A96C31EB1387E58000516CCB;
+			productRefGroup = A96C31F71387E58000516CCB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A96C31F51387E58000516CCB /* CorePlot */,
+				A96C31FE1387E58000516CCB /* Deployment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A96C31F41387E58000516CCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A96C32041387E58000516CCB /* InfoPlist.strings in Resources */,
+				A96C320B1387E58100516CCB /* MainMenu.xib in Resources */,
+				A96C320E1387E58100516CCB /* rb_main.rb in Resources */,
+				A96C32101387E58100516CCB /* AppDelegate.rb in Resources */,
+				A96C321C1387E60700516CCB /* Controller.rb in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A96C31F21387E58000516CCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A96C32071387E58000516CCB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A96C32021387E58000516CCB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A96C32031387E58000516CCB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A96C32091387E58100516CCB /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A96C320A1387E58100516CCB /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A96C32111387E58100516CCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A96C32121387E58100516CCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A96C32141387E58100516CCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = x86_64;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../Library/Frameworks\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CorePlot/CorePlot-Prefix.pch";
+				INFOPLIST_FILE = "CorePlot/CorePlot-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A96C32151387E58100516CCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = x86_64;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../Library/Frameworks\"",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CorePlot/CorePlot-Prefix.pch";
+				INFOPLIST_FILE = "CorePlot/CorePlot-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A96C32171387E58100516CCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		A96C32181387E58100516CCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A96C31F01387E58000516CCB /* Build configuration list for PBXProject "CorePlot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A96C32111387E58100516CCB /* Debug */,
+				A96C32121387E58100516CCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A96C32131387E58100516CCB /* Build configuration list for PBXNativeTarget "CorePlot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A96C32141387E58100516CCB /* Debug */,
+				A96C32151387E58100516CCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A96C32161387E58100516CCB /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A96C32171387E58100516CCB /* Debug */,
+				A96C32181387E58100516CCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A96C31ED1387E58000516CCB /* Project object */;
+}
