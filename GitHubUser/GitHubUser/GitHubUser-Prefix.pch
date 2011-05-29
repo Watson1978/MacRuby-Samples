@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'OctocatBox' target in the 'OctocatBox' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

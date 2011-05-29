@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9EE2D721392A50C00B38F34 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9EE2D711392A50C00B38F34 /* Cocoa.framework */; };
+		A9EE2D741392A50C00B38F34 /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9EE2D731392A50C00B38F34 /* MacRuby.framework */; };
+		A9EE2D7B1392A50C00B38F34 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A9EE2D791392A50C00B38F34 /* InfoPlist.strings */; };
+		A9EE2D7E1392A50C00B38F34 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9EE2D7D1392A50C00B38F34 /* main.m */; };
+		A9EE2D821392A50D00B38F34 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9EE2D801392A50D00B38F34 /* MainMenu.xib */; };
+		A9EE2D851392A50D00B38F34 /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = A9EE2D841392A50D00B38F34 /* rb_main.rb */; };
+		A9EE2D871392A50D00B38F34 /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = A9EE2D861392A50D00B38F34 /* AppDelegate.rb */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A9EE2D6D1392A50C00B38F34 /* GitHubUser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitHubUser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9EE2D711392A50C00B38F34 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		A9EE2D731392A50C00B38F34 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = System/Library/Frameworks/MacRuby.framework; sourceTree = SDKROOT; };
+		A9EE2D781392A50C00B38F34 /* GitHubUser-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GitHubUser-Info.plist"; sourceTree = "<group>"; };
+		A9EE2D7A1392A50C00B38F34 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A9EE2D7C1392A50C00B38F34 /* GitHubUser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OctocatBox-Prefix.pch"; sourceTree = "<group>"; };
+		A9EE2D7D1392A50C00B38F34 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A9EE2D811392A50D00B38F34 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A9EE2D841392A50D00B38F34 /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
+		A9EE2D861392A50D00B38F34 /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9EE2D6A1392A50C00B38F34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9EE2D721392A50C00B38F34 /* Cocoa.framework in Frameworks */,
+				A9EE2D741392A50C00B38F34 /* MacRuby.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9EE2D621392A50C00B38F34 = {
+			isa = PBXGroup;
+			children = (
+				A9EE2D761392A50C00B38F34 /* GitHubUser */,
+				A9EE2D701392A50C00B38F34 /* Frameworks */,
+				A9EE2D6E1392A50C00B38F34 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A9EE2D6E1392A50C00B38F34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9EE2D6D1392A50C00B38F34 /* GitHubUser.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9EE2D701392A50C00B38F34 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A9EE2D711392A50C00B38F34 /* Cocoa.framework */,
+				A9EE2D731392A50C00B38F34 /* MacRuby.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A9EE2D761392A50C00B38F34 /* GitHubUser */ = {
+			isa = PBXGroup;
+			children = (
+				A9EE2D861392A50D00B38F34 /* AppDelegate.rb */,
+				A9EE2D7F1392A50D00B38F34 /* Resources */,
+				A9EE2D831392A50D00B38F34 /* Other Sources */,
+				A9EE2D771392A50C00B38F34 /* Supporting Files */,
+			);
+			path = GitHubUser;
+			sourceTree = "<group>";
+		};
+		A9EE2D771392A50C00B38F34 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9EE2D781392A50C00B38F34 /* GitHubUser-Info.plist */,
+				A9EE2D791392A50C00B38F34 /* InfoPlist.strings */,
+				A9EE2D7C1392A50C00B38F34 /* GitHubUser-Prefix.pch */,
+				A9EE2D7D1392A50C00B38F34 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A9EE2D7F1392A50D00B38F34 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A9EE2D801392A50D00B38F34 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A9EE2D831392A50D00B38F34 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				A9EE2D841392A50D00B38F34 /* rb_main.rb */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		A9EE2D751392A50C00B38F34 /* Deployment */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "--compile --embed";
+			buildConfigurationList = A9EE2D8D1392A50D00B38F34 /* Build configuration list for PBXLegacyTarget "Deployment" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/local/bin/macruby_deploy;
+			dependencies = (
+			);
+			name = Deployment;
+			passBuildSettingsInEnvironment = 1;
+			productName = Deployment;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		A9EE2D6C1392A50C00B38F34 /* GitHubUser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9EE2D8A1392A50D00B38F34 /* Build configuration list for PBXNativeTarget "GitHubUser" */;
+			buildPhases = (
+				A9EE2D691392A50C00B38F34 /* Sources */,
+				A9EE2D6A1392A50C00B38F34 /* Frameworks */,
+				A9EE2D6B1392A50C00B38F34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GitHubUser;
+			productName = GitHubUser;
+			productReference = A9EE2D6D1392A50C00B38F34 /* GitHubUser.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9EE2D641392A50C00B38F34 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = A9EE2D671392A50C00B38F34 /* Build configuration list for PBXProject "GitHubUser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A9EE2D621392A50C00B38F34;
+			productRefGroup = A9EE2D6E1392A50C00B38F34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9EE2D6C1392A50C00B38F34 /* GitHubUser */,
+				A9EE2D751392A50C00B38F34 /* Deployment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9EE2D6B1392A50C00B38F34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9EE2D7B1392A50C00B38F34 /* InfoPlist.strings in Resources */,
+				A9EE2D821392A50D00B38F34 /* MainMenu.xib in Resources */,
+				A9EE2D851392A50D00B38F34 /* rb_main.rb in Resources */,
+				A9EE2D871392A50D00B38F34 /* AppDelegate.rb in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9EE2D691392A50C00B38F34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9EE2D7E1392A50C00B38F34 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A9EE2D791392A50C00B38F34 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9EE2D7A1392A50C00B38F34 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A9EE2D801392A50D00B38F34 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9EE2D811392A50D00B38F34 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9EE2D881392A50D00B38F34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A9EE2D891392A50D00B38F34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A9EE2D8B1392A50D00B38F34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = x86_64;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GitHubUser/GitHubUser-Prefix.pch";
+				INFOPLIST_FILE = "GitHubUser/GitHubUser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A9EE2D8C1392A50D00B38F34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = x86_64;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GitHubUser/GitHubUser-Prefix.pch";
+				INFOPLIST_FILE = "GitHubUser/GitHubUser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A9EE2D8E1392A50D00B38F34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		A9EE2D8F1392A50D00B38F34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9EE2D671392A50C00B38F34 /* Build configuration list for PBXProject "GitHubUser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9EE2D881392A50D00B38F34 /* Debug */,
+				A9EE2D891392A50D00B38F34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9EE2D8A1392A50D00B38F34 /* Build configuration list for PBXNativeTarget "GitHubUser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9EE2D8B1392A50D00B38F34 /* Debug */,
+				A9EE2D8C1392A50D00B38F34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A9EE2D8D1392A50D00B38F34 /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9EE2D8E1392A50D00B38F34 /* Debug */,
+				A9EE2D8F1392A50D00B38F34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9EE2D641392A50C00B38F34 /* Project object */;
+}
