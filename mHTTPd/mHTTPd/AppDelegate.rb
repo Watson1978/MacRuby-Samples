@@ -8,27 +8,24 @@
 require "webrick"
 
 class AppDelegate
-  SERVER_STOPED  = 1
-  SERVER_STARTED = 2
-
   attr_accessor :window
-  attr_accessor :doc_root, :server_port
+  attr_accessor :doc_root, :server_port, :server_name
   attr_accessor :http_toggle
 
   def applicationDidFinishLaunching(a_notification)
     # Insert code here to initialize your application
-    @server_status = SERVER_STOPED
+    @server_status = :stoped
   end
 
   def toggle(sender)
     case @server_status
-    when SERVER_STARTED
+    when :started
       stop
-      @server_status = SERVER_STOPED
+      @server_status = :stoped
       http_toggle.title = "Start"
-    when SERVER_STOPED
+    when :stoped
       start
-      @server_status = SERVER_STARTED
+      @server_status = :started
       http_toggle.title = "Stop"
     end
   end
@@ -36,18 +33,28 @@ class AppDelegate
   private
 
   def start
+    name = @server_name.stringValue
+    root = @doc_root.stringValue
+    port = @server_port.stringValue.to_i
     @server = WEBrick::HTTPServer.new(
-    			:Port => @server_port.stringValue.to_i,
-    			:DocumentRoot => File.expand_path(doc_root.stringValue)
+    			:Port => port,
+    			:DocumentRoot => File.expand_path(root)
     )
 
-    @thread_httpd = Thread.new {
+    # Bonjour
+    @netservice = NSNetService.alloc.initWithDomain("", type:"_http._tcp", name:name, port:port)
+    @netservice.publish
+
+    # httpd
+    Thread.new {
       @server.start
+      
     }
   end
 
   def stop
     @server.shutdown
+    @netservice.stop
   end
 end
 

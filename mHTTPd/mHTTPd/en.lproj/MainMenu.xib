@@ -1336,7 +1336,7 @@
 						<object class="NSTextField" id="924448299">
 							<reference key="NSNextResponder" ref="439893737"/>
 							<int key="NSvFlags">268</int>
-							<string key="NSFrame">{{17, 127}, {102, 17}}</string>
+							<string key="NSFrame">{{17, 100}, {102, 17}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
 							<reference key="NSWindow"/>
 							<reference key="NSNextKeyView" ref="460013180"/>
@@ -1374,7 +1374,7 @@
 						<object class="NSTextField" id="872633421">
 							<reference key="NSNextResponder" ref="439893737"/>
 							<int key="NSvFlags">268</int>
-							<string key="NSFrame">{{17, 96}, {102, 17}}</string>
+							<string key="NSFrame">{{17, 69}, {102, 17}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
 							<reference key="NSWindow"/>
 							<reference key="NSNextKeyView" ref="762561395"/>
@@ -1392,7 +1392,7 @@
 						<object class="NSTextField" id="460013180">
 							<reference key="NSNextResponder" ref="439893737"/>
 							<int key="NSvFlags">268</int>
-							<string key="NSFrame">{{130, 125}, {244, 22}}</string>
+							<string key="NSFrame">{{130, 98}, {244, 22}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
 							<reference key="NSWindow"/>
 							<reference key="NSNextKeyView" ref="872633421"/>
@@ -1421,10 +1421,47 @@
 								</object>
 							</object>
 						</object>
+						<object class="NSTextField" id="1022644116">
+							<reference key="NSNextResponder" ref="439893737"/>
+							<int key="NSvFlags">268</int>
+							<string key="NSFrame">{{17, 130}, {102, 17}}</string>
+							<reference key="NSSuperview" ref="439893737"/>
+							<reference key="NSWindow"/>
+							<reference key="NSNextKeyView" ref="552901049"/>
+							<bool key="NSEnabled">YES</bool>
+							<object class="NSTextFieldCell" key="NSCell" id="901863010">
+								<int key="NSCellFlags">68288064</int>
+								<int key="NSCellFlags2">272630784</int>
+								<string key="NSContents">Server Name</string>
+								<reference key="NSSupport" ref="176926642"/>
+								<reference key="NSControlView" ref="1022644116"/>
+								<reference key="NSBackgroundColor" ref="703869195"/>
+								<reference key="NSTextColor" ref="239393396"/>
+							</object>
+						</object>
+						<object class="NSTextField" id="552901049">
+							<reference key="NSNextResponder" ref="439893737"/>
+							<int key="NSvFlags">268</int>
+							<string key="NSFrame">{{130, 128}, {244, 22}}</string>
+							<reference key="NSSuperview" ref="439893737"/>
+							<reference key="NSWindow"/>
+							<reference key="NSNextKeyView" ref="924448299"/>
+							<bool key="NSEnabled">YES</bool>
+							<object class="NSTextFieldCell" key="NSCell" id="424715550">
+								<int key="NSCellFlags">-1804468671</int>
+								<int key="NSCellFlags2">272630784</int>
+								<string key="NSContents">Webrick</string>
+								<reference key="NSSupport" ref="176926642"/>
+								<reference key="NSControlView" ref="552901049"/>
+								<bool key="NSDrawsBackground">YES</bool>
+								<reference key="NSBackgroundColor" ref="198614378"/>
+								<reference key="NSTextColor" ref="499982470"/>
+							</object>
+						</object>
 						<object class="NSTextField" id="762561395">
 							<reference key="NSNextResponder" ref="439893737"/>
 							<int key="NSvFlags">268</int>
-							<string key="NSFrame">{{130, 93}, {96, 22}}</string>
+							<string key="NSFrame">{{130, 66}, {96, 22}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
 							<reference key="NSWindow"/>
 							<reference key="NSNextKeyView" ref="84633712"/>
@@ -1466,7 +1503,7 @@
 					<string key="NSFrame">{{7, 11}, {394, 162}}</string>
 					<reference key="NSSuperview"/>
 					<reference key="NSWindow"/>
-					<reference key="NSNextKeyView" ref="924448299"/>
+					<reference key="NSNextKeyView" ref="1022644116"/>
 				</object>
 				<string key="NSScreenRect">{{0, 0}, {1280, 778}}</string>
 				<string key="NSMaxSize">{1e+13, 1e+13}</string>
@@ -2193,6 +2230,14 @@
 					</object>
 					<int key="connectionID">552</int>
 				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">server_name</string>
+						<reference key="source" ref="976324537"/>
+						<reference key="destination" ref="552901049"/>
+					</object>
+					<int key="connectionID">557</int>
+				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
 				<object class="NSArray" key="orderedObjects">
@@ -2753,6 +2798,8 @@
 							<reference ref="872633421"/>
 							<reference ref="924448299"/>
 							<reference ref="84633712"/>
+							<reference ref="1022644116"/>
+							<reference ref="552901049"/>
 						</object>
 						<reference key="parent" ref="972006081"/>
 					</object>
@@ -3312,6 +3359,34 @@
 						<reference key="object" ref="725438726"/>
 						<reference key="parent" ref="84633712"/>
 					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">553</int>
+						<reference key="object" ref="1022644116"/>
+						<object class="NSMutableArray" key="children">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<reference ref="901863010"/>
+						</object>
+						<reference key="parent" ref="439893737"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">554</int>
+						<reference key="object" ref="552901049"/>
+						<object class="NSMutableArray" key="children">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<reference ref="424715550"/>
+						</object>
+						<reference key="parent" ref="439893737"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">555</int>
+						<reference key="object" ref="424715550"/>
+						<reference key="parent" ref="552901049"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">556</int>
+						<reference key="object" ref="901863010"/>
+						<reference key="parent" ref="1022644116"/>
+					</object>
 				</object>
 			</object>
 			<object class="NSMutableDictionary" key="flattenedProperties">
@@ -3547,6 +3622,10 @@
 					<string>540.IBPluginDependency</string>
 					<string>541.IBPluginDependency</string>
 					<string>542.IBPluginDependency</string>
+					<string>553.IBPluginDependency</string>
+					<string>554.IBPluginDependency</string>
+					<string>555.IBPluginDependency</string>
+					<string>556.IBPluginDependency</string>
 					<string>56.IBPluginDependency</string>
 					<string>56.ImportedFromIB2</string>
 					<string>57.IBEditorWindowLastContentRect</string>
@@ -3814,6 +3893,10 @@
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<integer value="1"/>
 					<string>{{286, 129}, {275, 183}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
@@ -3861,7 +3944,7 @@
 				<reference key="dict.values" ref="0"/>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">552</int>
+			<int key="maxID">557</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -3886,11 +3969,13 @@
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>doc_root</string>
 							<string>http_toggle</string>
+							<string>server_name</string>
 							<string>server_port</string>
 							<string>window</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>id</string>
 							<string>id</string>
 							<string>id</string>
 							<string>id</string>
@@ -3903,6 +3988,7 @@
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>doc_root</string>
 							<string>http_toggle</string>
+							<string>server_name</string>
 							<string>server_port</string>
 							<string>window</string>
 						</object>
@@ -3914,6 +4000,10 @@
 							</object>
 							<object class="IBToOneOutletInfo">
 								<string key="name">http_toggle</string>
+								<string key="candidateClassName">id</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">server_name</string>
 								<string key="candidateClassName">id</string>
 							</object>
 							<object class="IBToOneOutletInfo">
