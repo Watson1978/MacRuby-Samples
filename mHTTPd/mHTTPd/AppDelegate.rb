@@ -30,6 +30,18 @@ class AppDelegate
     end
   end
 
+  def openFolder(sender)
+    panel = NSOpenPanel.openPanel
+    panel.setCanChooseDirectories(true)
+    result = panel.runModalForDirectory(NSHomeDirectory(),
+                                        file:nil, 
+                                        types:nil)
+    if(result == NSOKButton)
+      path = panel.filename
+      @doc_root.stringValue = path
+    end
+  end
+
   private
 
   def start
@@ -48,7 +60,6 @@ class AppDelegate
     # httpd
     Thread.new {
       @server.start
-      
     }
   end
 
@@ -57,4 +68,3 @@ class AppDelegate
     @netservice.stop
   end
 end
-
