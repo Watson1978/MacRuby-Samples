@@ -32,8 +32,10 @@ class AppDelegate
 
   def openFolder(sender)
     panel = NSOpenPanel.openPanel
+    panel.setCanChooseFiles(false)
     panel.setCanChooseDirectories(true)
-    result = panel.runModalForDirectory(NSHomeDirectory(),
+    dir = File.expand_path(doc_root.stringValue)
+    result = panel.runModalForDirectory(dir,
                                         file:nil, 
                                         types:nil)
     if(result == NSOKButton)
