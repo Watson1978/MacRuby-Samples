@@ -1,0 +1,365 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A90EB9A51419383700851A7F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A90EB9A41419383700851A7F /* Cocoa.framework */; };
+		A90EB9A71419383700851A7F /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A90EB9A61419383700851A7F /* MacRuby.framework */; };
+		A90EB9B01419383700851A7F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A90EB9AE1419383700851A7F /* InfoPlist.strings */; };
+		A90EB9B21419383700851A7F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A90EB9B11419383700851A7F /* main.m */; };
+		A90EB9B71419383700851A7F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A90EB9B51419383700851A7F /* MainMenu.xib */; };
+		A90EB9BA1419383700851A7F /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = A90EB9B91419383700851A7F /* rb_main.rb */; };
+		A90EB9BC1419383700851A7F /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = A90EB9BB1419383700851A7F /* AppDelegate.rb */; };
+		A919AF801419873A000A2FF9 /* status_bar_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A919AF7F1419873A000A2FF9 /* status_bar_icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A90EB9A91419383700851A7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A90EB9971419383700851A7F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A90EB99F1419383700851A7F;
+			remoteInfo = StatusBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A90EB9A01419383700851A7F /* StatusBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StatusBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A90EB9A41419383700851A7F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		A90EB9A61419383700851A7F /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = Library/Frameworks/MacRuby.framework; sourceTree = DEVELOPER_DIR; };
+		A90EB9AD1419383700851A7F /* StatusBar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StatusBar-Info.plist"; sourceTree = "<group>"; };
+		A90EB9AF1419383700851A7F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A90EB9B11419383700851A7F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A90EB9B31419383700851A7F /* StatusBar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StatusBar-Prefix.pch"; sourceTree = "<group>"; };
+		A90EB9B61419383700851A7F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A90EB9B91419383700851A7F /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
+		A90EB9BB1419383700851A7F /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+		A919AF7F1419873A000A2FF9 /* status_bar_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = status_bar_icon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A90EB99D1419383700851A7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A90EB9A51419383700851A7F /* Cocoa.framework in Frameworks */,
+				A90EB9A71419383700851A7F /* MacRuby.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A90EB9951419383700851A7F = {
+			isa = PBXGroup;
+			children = (
+				A90EB9AB1419383700851A7F /* StatusBar */,
+				A90EB9A31419383700851A7F /* Frameworks */,
+				A90EB9A11419383700851A7F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A90EB9A11419383700851A7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A90EB9A01419383700851A7F /* StatusBar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A90EB9A31419383700851A7F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A90EB9A41419383700851A7F /* Cocoa.framework */,
+				A90EB9A61419383700851A7F /* MacRuby.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A90EB9AB1419383700851A7F /* StatusBar */ = {
+			isa = PBXGroup;
+			children = (
+				A90EB9BB1419383700851A7F /* AppDelegate.rb */,
+				A90EB9B41419383700851A7F /* Resources */,
+				A90EB9B81419383700851A7F /* Other Sources */,
+				A90EB9AC1419383700851A7F /* Supporting Files */,
+			);
+			path = StatusBar;
+			sourceTree = "<group>";
+		};
+		A90EB9AC1419383700851A7F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A90EB9AD1419383700851A7F /* StatusBar-Info.plist */,
+				A90EB9AE1419383700851A7F /* InfoPlist.strings */,
+				A90EB9B11419383700851A7F /* main.m */,
+				A90EB9B31419383700851A7F /* StatusBar-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A90EB9B41419383700851A7F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A919AF7F1419873A000A2FF9 /* status_bar_icon.png */,
+				A90EB9B51419383700851A7F /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A90EB9B81419383700851A7F /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				A90EB9B91419383700851A7F /* rb_main.rb */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		A90EB9A81419383700851A7F /* Deployment */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "--compile --embed";
+			buildConfigurationList = A90EB9C21419383700851A7F /* Build configuration list for PBXLegacyTarget "Deployment" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/local/bin/macruby_deploy;
+			dependencies = (
+				A90EB9AA1419383700851A7F /* PBXTargetDependency */,
+			);
+			name = Deployment;
+			passBuildSettingsInEnvironment = 1;
+			productName = Deployment;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		A90EB99F1419383700851A7F /* StatusBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A90EB9BF1419383700851A7F /* Build configuration list for PBXNativeTarget "StatusBar" */;
+			buildPhases = (
+				A90EB99C1419383700851A7F /* Sources */,
+				A90EB99D1419383700851A7F /* Frameworks */,
+				A90EB99E1419383700851A7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StatusBar;
+			productName = StatusBar;
+			productReference = A90EB9A01419383700851A7F /* StatusBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A90EB9971419383700851A7F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = A90EB99A1419383700851A7F /* Build configuration list for PBXProject "StatusBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A90EB9951419383700851A7F;
+			productRefGroup = A90EB9A11419383700851A7F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A90EB99F1419383700851A7F /* StatusBar */,
+				A90EB9A81419383700851A7F /* Deployment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A90EB99E1419383700851A7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A90EB9B01419383700851A7F /* InfoPlist.strings in Resources */,
+				A90EB9B71419383700851A7F /* MainMenu.xib in Resources */,
+				A90EB9BA1419383700851A7F /* rb_main.rb in Resources */,
+				A90EB9BC1419383700851A7F /* AppDelegate.rb in Resources */,
+				A919AF801419873A000A2FF9 /* status_bar_icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A90EB99C1419383700851A7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A90EB9B21419383700851A7F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A90EB9AA1419383700851A7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A90EB99F1419383700851A7F /* StatusBar */;
+			targetProxy = A90EB9A91419383700851A7F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A90EB9AE1419383700851A7F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A90EB9AF1419383700851A7F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A90EB9B51419383700851A7F /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A90EB9B61419383700851A7F /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A90EB9BD1419383700851A7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = "";
+			};
+			name = Debug;
+		};
+		A90EB9BE1419383700851A7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = "";
+			};
+			name = Release;
+		};
+		A90EB9C01419383700851A7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StatusBar/StatusBar-Prefix.pch";
+				INFOPLIST_FILE = "StatusBar/StatusBar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A90EB9C11419383700851A7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StatusBar/StatusBar-Prefix.pch";
+				INFOPLIST_FILE = "StatusBar/StatusBar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A90EB9C31419383700851A7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		A90EB9C41419383700851A7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A90EB99A1419383700851A7F /* Build configuration list for PBXProject "StatusBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A90EB9BD1419383700851A7F /* Debug */,
+				A90EB9BE1419383700851A7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A90EB9BF1419383700851A7F /* Build configuration list for PBXNativeTarget "StatusBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A90EB9C01419383700851A7F /* Debug */,
+				A90EB9C11419383700851A7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A90EB9C21419383700851A7F /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A90EB9C31419383700851A7F /* Debug */,
+				A90EB9C41419383700851A7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A90EB9971419383700851A7F /* Project object */;
+}
