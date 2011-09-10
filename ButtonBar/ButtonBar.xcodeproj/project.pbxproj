@@ -1,0 +1,365 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A95F0C24141B4C8600292B06 /* ButtonBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A95F0C23141B4C8600292B06 /* ButtonBar.m */; };
+		A9BF3357141A670E005A1757 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9BF3356141A670E005A1757 /* Cocoa.framework */; };
+		A9BF3359141A670E005A1757 /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9BF3358141A670E005A1757 /* MacRuby.framework */; };
+		A9BF3362141A670E005A1757 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A9BF3360141A670E005A1757 /* InfoPlist.strings */; };
+		A9BF3364141A670E005A1757 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9BF3363141A670E005A1757 /* main.m */; };
+		A9BF3369141A670E005A1757 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9BF3367141A670E005A1757 /* MainMenu.xib */; };
+		A9BF336C141A670E005A1757 /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = A9BF336B141A670E005A1757 /* rb_main.rb */; };
+		A9BF336E141A670E005A1757 /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = A9BF336D141A670E005A1757 /* AppDelegate.rb */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A9BF335B141A670E005A1757 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9BF3349141A670E005A1757 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9BF3351141A670E005A1757;
+			remoteInfo = ButtonBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A95F0C22141B4C8600292B06 /* ButtonBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonBar.h; sourceTree = "<group>"; };
+		A95F0C23141B4C8600292B06 /* ButtonBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonBar.m; sourceTree = "<group>"; };
+		A9BF3352141A670E005A1757 /* ButtonBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ButtonBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9BF3356141A670E005A1757 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		A9BF3358141A670E005A1757 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = Library/Frameworks/MacRuby.framework; sourceTree = DEVELOPER_DIR; };
+		A9BF335F141A670E005A1757 /* ButtonBar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ButtonBar-Info.plist"; sourceTree = "<group>"; };
+		A9BF3361141A670E005A1757 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A9BF3363141A670E005A1757 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A9BF3365141A670E005A1757 /* ButtonBar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ButtonBar-Prefix.pch"; sourceTree = "<group>"; };
+		A9BF3368141A670E005A1757 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A9BF336B141A670E005A1757 /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
+		A9BF336D141A670E005A1757 /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9BF334F141A670E005A1757 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9BF3357141A670E005A1757 /* Cocoa.framework in Frameworks */,
+				A9BF3359141A670E005A1757 /* MacRuby.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9BF3347141A670E005A1757 = {
+			isa = PBXGroup;
+			children = (
+				A9BF335D141A670E005A1757 /* ButtonBar */,
+				A9BF3355141A670E005A1757 /* Frameworks */,
+				A9BF3353141A670E005A1757 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A9BF3353141A670E005A1757 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9BF3352141A670E005A1757 /* ButtonBar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9BF3355141A670E005A1757 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A9BF3356141A670E005A1757 /* Cocoa.framework */,
+				A9BF3358141A670E005A1757 /* MacRuby.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A9BF335D141A670E005A1757 /* ButtonBar */ = {
+			isa = PBXGroup;
+			children = (
+				A9BF336D141A670E005A1757 /* AppDelegate.rb */,
+				A9BF3366141A670E005A1757 /* Resources */,
+				A9BF336A141A670E005A1757 /* Other Sources */,
+				A9BF335E141A670E005A1757 /* Supporting Files */,
+				A95F0C22141B4C8600292B06 /* ButtonBar.h */,
+				A95F0C23141B4C8600292B06 /* ButtonBar.m */,
+			);
+			path = ButtonBar;
+			sourceTree = "<group>";
+		};
+		A9BF335E141A670E005A1757 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9BF335F141A670E005A1757 /* ButtonBar-Info.plist */,
+				A9BF3360141A670E005A1757 /* InfoPlist.strings */,
+				A9BF3363141A670E005A1757 /* main.m */,
+				A9BF3365141A670E005A1757 /* ButtonBar-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A9BF3366141A670E005A1757 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A9BF3367141A670E005A1757 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A9BF336A141A670E005A1757 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				A9BF336B141A670E005A1757 /* rb_main.rb */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		A9BF335A141A670E005A1757 /* Deployment */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "--compile --embed";
+			buildConfigurationList = A9BF3374141A670E005A1757 /* Build configuration list for PBXLegacyTarget "Deployment" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/local/bin/macruby_deploy;
+			dependencies = (
+				A9BF335C141A670E005A1757 /* PBXTargetDependency */,
+			);
+			name = Deployment;
+			passBuildSettingsInEnvironment = 1;
+			productName = Deployment;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		A9BF3351141A670E005A1757 /* ButtonBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9BF3371141A670E005A1757 /* Build configuration list for PBXNativeTarget "ButtonBar" */;
+			buildPhases = (
+				A9BF334E141A670E005A1757 /* Sources */,
+				A9BF334F141A670E005A1757 /* Frameworks */,
+				A9BF3350141A670E005A1757 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ButtonBar;
+			productName = ButtonBar;
+			productReference = A9BF3352141A670E005A1757 /* ButtonBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9BF3349141A670E005A1757 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = A9BF334C141A670E005A1757 /* Build configuration list for PBXProject "ButtonBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A9BF3347141A670E005A1757;
+			productRefGroup = A9BF3353141A670E005A1757 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9BF3351141A670E005A1757 /* ButtonBar */,
+				A9BF335A141A670E005A1757 /* Deployment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9BF3350141A670E005A1757 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9BF3362141A670E005A1757 /* InfoPlist.strings in Resources */,
+				A9BF3369141A670E005A1757 /* MainMenu.xib in Resources */,
+				A9BF336C141A670E005A1757 /* rb_main.rb in Resources */,
+				A9BF336E141A670E005A1757 /* AppDelegate.rb in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9BF334E141A670E005A1757 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9BF3364141A670E005A1757 /* main.m in Sources */,
+				A95F0C24141B4C8600292B06 /* ButtonBar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A9BF335C141A670E005A1757 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9BF3351141A670E005A1757 /* ButtonBar */;
+			targetProxy = A9BF335B141A670E005A1757 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A9BF3360141A670E005A1757 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9BF3361141A670E005A1757 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A9BF3367141A670E005A1757 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9BF3368141A670E005A1757 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9BF336F141A670E005A1757 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A9BF3370141A670E005A1757 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A9BF3372141A670E005A1757 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ButtonBar/ButtonBar-Prefix.pch";
+				INFOPLIST_FILE = "ButtonBar/ButtonBar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A9BF3373141A670E005A1757 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ButtonBar/ButtonBar-Prefix.pch";
+				INFOPLIST_FILE = "ButtonBar/ButtonBar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A9BF3375141A670E005A1757 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		A9BF3376141A670E005A1757 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9BF334C141A670E005A1757 /* Build configuration list for PBXProject "ButtonBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9BF336F141A670E005A1757 /* Debug */,
+				A9BF3370141A670E005A1757 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9BF3371141A670E005A1757 /* Build configuration list for PBXNativeTarget "ButtonBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9BF3372141A670E005A1757 /* Debug */,
+				A9BF3373141A670E005A1757 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9BF3374141A670E005A1757 /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9BF3375141A670E005A1757 /* Debug */,
+				A9BF3376141A670E005A1757 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9BF3349141A670E005A1757 /* Project object */;
+}
