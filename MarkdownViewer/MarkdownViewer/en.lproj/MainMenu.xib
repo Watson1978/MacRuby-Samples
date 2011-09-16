@@ -436,7 +436,7 @@
 			<object class="NSWindowTemplate" id="972006081">
 				<int key="NSWindowStyleMask">15</int>
 				<int key="NSWindowBacking">2</int>
-				<string key="NSWindowRect">{{335, 390}, {476, 414}}</string>
+				<string key="NSWindowRect">{{335, 390}, {500, 400}}</string>
 				<int key="NSWTFlags">1954021376</int>
 				<string key="NSWindowTitle">MarkdownViewer</string>
 				<string key="NSWindowClass">NSWindow</string>
@@ -471,7 +471,7 @@
 									<string>public.url-name</string>
 								</object>
 							</object>
-							<string key="NSFrame">{{0, -6}, {476, 420}}</string>
+							<string key="NSFrameSize">{500, 400}</string>
 							<reference key="NSSuperview" ref="439893737"/>
 							<reference key="NSWindow"/>
 							<reference key="NSNextKeyView"/>
@@ -486,13 +486,21 @@
 										<bool key="EncodedWithXMLCoder">YES</bool>
 										<string>WebKitDefaultFixedFontSize</string>
 										<string>WebKitDefaultFontSize</string>
+										<string>WebKitJavaEnabled</string>
+										<string>WebKitJavaScriptCanOpenWindowsAutomatically</string>
+										<string>WebKitJavaScriptEnabled</string>
 										<string>WebKitMinimumFontSize</string>
+										<string>WebKitPluginsEnabled</string>
 									</object>
 									<object class="NSMutableArray" key="dict.values">
 										<bool key="EncodedWithXMLCoder">YES</bool>
 										<integer value="12"/>
 										<integer value="12"/>
+										<boolean value="NO"/>
+										<boolean value="NO"/>
+										<boolean value="NO"/>
 										<integer value="1"/>
+										<boolean value="NO"/>
 									</object>
 								</object>
 							</object>
@@ -500,10 +508,10 @@
 							<bool key="AllowsUndo">YES</bool>
 						</object>
 					</object>
-					<string key="NSFrameSize">{476, 414}</string>
+					<string key="NSFrameSize">{500, 400}</string>
 					<reference key="NSSuperview"/>
 					<reference key="NSWindow"/>
-					<reference key="NSNextKeyView"/>
+					<reference key="NSNextKeyView" ref="1029132597"/>
 				</object>
 				<string key="NSScreenRect">{{0, 0}, {1280, 778}}</string>
 				<string key="NSMaxSize">{10000000000000, 10000000000000}</string>
@@ -670,14 +678,6 @@
 						<reference key="destination" ref="972006081"/>
 					</object>
 					<int key="connectionID">532</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBOutletConnection" key="connection">
-						<string key="label">webView</string>
-						<reference key="source" ref="976324537"/>
-						<reference key="destination" ref="1029132597"/>
-					</object>
-					<int key="connectionID">553</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBActionConnection" key="connection">
@@ -1200,12 +1200,14 @@
 						<bool key="EncodedWithXMLCoder">YES</bool>
 						<object class="NSArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>applicationOpenUntitledFile:</string>
 							<string>convert:</string>
 							<string>markdownPerformDragOperation:</string>
 							<string>open:</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>id</string>
 							<string>id</string>
 							<string>id</string>
 							<string>id</string>
@@ -1215,12 +1217,17 @@
 						<bool key="EncodedWithXMLCoder">YES</bool>
 						<object class="NSArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>applicationOpenUntitledFile:</string>
 							<string>convert:</string>
 							<string>markdownPerformDragOperation:</string>
 							<string>open:</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<object class="IBActionInfo">
+								<string key="name">applicationOpenUntitledFile:</string>
+								<string key="candidateClassName">id</string>
+							</object>
 							<object class="IBActionInfo">
 								<string key="name">convert:</string>
 								<string key="candidateClassName">id</string>

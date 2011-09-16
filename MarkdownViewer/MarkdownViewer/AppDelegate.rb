@@ -20,6 +20,11 @@ class AppDelegate
     @file_path = ""
   end
 
+  def applicationOpenUntitledFile(sender)
+    self.windowDisplay
+    return true
+  end
+
   def markdownPerformDragOperation(sender)
     pbd = sender.draggingPasteboard
     files = pbd.propertyListForType(NSFilenamesPboardType)
@@ -53,6 +58,7 @@ class AppDelegate
     if(result == NSOKButton)
       path = panel.filename
       @file_path = path
+      self.windowDisplay
       self.convert(sender)
     end
   end
@@ -78,6 +84,16 @@ class AppDelegate
 </html>
 EOS
     markdownView.mainFrame.loadHTMLString(html, baseURL:nsurl)
+  end
+  
+  def windowDisplay
+    window.makeKeyAndOrderFront(nil)
+    if markdownView.mainFrame.nil?
+      rect = window.frame
+      rect.origin.x = 0
+      rect.origin.y = 0
+      markdownView.initWithFrame(rect, frameName:"", groupName:"")
+    end
   end
 end
 
