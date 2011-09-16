@@ -17,6 +17,21 @@ class AppDelegate
     # Insert code here to initialize your application
   end
 
+  def open(sender)
+    panel = NSOpenPanel.openPanel
+    panel.setCanChooseDirectories(false)
+    file_types = ["md", "mkd", "markdown"]
+    result = panel.runModalForDirectory(NSHomeDirectory(),
+                                        file:nil, 
+                                        types:file_types)
+    if(result == NSOKButton)
+      path = panel.filename
+      filePath.stringValue = path
+      self.convert(sender)
+    end
+  end
+  
+  
   def convert(sender)
     path  = File.expand_path(filePath.stringValue)
     dir   = File.dirname(path) + "/"
