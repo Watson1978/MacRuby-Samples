@@ -1,0 +1,365 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9254A6F1421F2D900287D3B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9254A6E1421F2D900287D3B /* Cocoa.framework */; };
+		A9254A711421F2D900287D3B /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9254A701421F2D900287D3B /* MacRuby.framework */; };
+		A9254A7A1421F2D900287D3B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A9254A781421F2D900287D3B /* InfoPlist.strings */; };
+		A9254A7C1421F2D900287D3B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9254A7B1421F2D900287D3B /* main.m */; };
+		A9254A811421F2D900287D3B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9254A7F1421F2D900287D3B /* MainMenu.xib */; };
+		A9254A841421F2D900287D3B /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = A9254A831421F2D900287D3B /* rb_main.rb */; };
+		A9254A861421F2D900287D3B /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = A9254A851421F2D900287D3B /* AppDelegate.rb */; };
+		A9254A911421F2F700287D3B /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = A9254A8F1421F2F700287D3B /* facebook.png */; };
+		A9254A921421F2F700287D3B /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = A9254A901421F2F700287D3B /* twitter.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A9254A731421F2D900287D3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9254A611421F2D800287D3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9254A691421F2D900287D3B;
+			remoteInfo = ViewBasedCell2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A9254A6A1421F2D900287D3B /* ViewBasedCell2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewBasedCell2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9254A6E1421F2D900287D3B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		A9254A701421F2D900287D3B /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = Library/Frameworks/MacRuby.framework; sourceTree = DEVELOPER_DIR; };
+		A9254A771421F2D900287D3B /* ViewBasedCell2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ViewBasedCell2-Info.plist"; sourceTree = "<group>"; };
+		A9254A791421F2D900287D3B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A9254A7B1421F2D900287D3B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A9254A7D1421F2D900287D3B /* ViewBasedCell2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ViewBasedCell2-Prefix.pch"; sourceTree = "<group>"; };
+		A9254A801421F2D900287D3B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A9254A831421F2D900287D3B /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
+		A9254A851421F2D900287D3B /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+		A9254A8F1421F2F700287D3B /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook.png; sourceTree = "<group>"; };
+		A9254A901421F2F700287D3B /* twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9254A671421F2D900287D3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9254A6F1421F2D900287D3B /* Cocoa.framework in Frameworks */,
+				A9254A711421F2D900287D3B /* MacRuby.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9254A5F1421F2D800287D3B = {
+			isa = PBXGroup;
+			children = (
+				A9254A751421F2D900287D3B /* ViewBasedCell2 */,
+				A9254A6D1421F2D900287D3B /* Frameworks */,
+				A9254A6B1421F2D900287D3B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A9254A6B1421F2D900287D3B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9254A6A1421F2D900287D3B /* ViewBasedCell2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9254A6D1421F2D900287D3B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A9254A6E1421F2D900287D3B /* Cocoa.framework */,
+				A9254A701421F2D900287D3B /* MacRuby.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A9254A751421F2D900287D3B /* ViewBasedCell2 */ = {
+			isa = PBXGroup;
+			children = (
+				A9254A8F1421F2F700287D3B /* facebook.png */,
+				A9254A901421F2F700287D3B /* twitter.png */,
+				A9254A851421F2D900287D3B /* AppDelegate.rb */,
+				A9254A7E1421F2D900287D3B /* Resources */,
+				A9254A821421F2D900287D3B /* Other Sources */,
+				A9254A761421F2D900287D3B /* Supporting Files */,
+			);
+			path = ViewBasedCell2;
+			sourceTree = "<group>";
+		};
+		A9254A761421F2D900287D3B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9254A771421F2D900287D3B /* ViewBasedCell2-Info.plist */,
+				A9254A781421F2D900287D3B /* InfoPlist.strings */,
+				A9254A7B1421F2D900287D3B /* main.m */,
+				A9254A7D1421F2D900287D3B /* ViewBasedCell2-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A9254A7E1421F2D900287D3B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A9254A7F1421F2D900287D3B /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A9254A821421F2D900287D3B /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				A9254A831421F2D900287D3B /* rb_main.rb */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		A9254A721421F2D900287D3B /* Deployment */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "--compile --embed";
+			buildConfigurationList = A9254A8C1421F2D900287D3B /* Build configuration list for PBXLegacyTarget "Deployment" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/local/bin/macruby_deploy;
+			dependencies = (
+				A9254A741421F2D900287D3B /* PBXTargetDependency */,
+			);
+			name = Deployment;
+			passBuildSettingsInEnvironment = 1;
+			productName = Deployment;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		A9254A691421F2D900287D3B /* ViewBasedCell2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9254A891421F2D900287D3B /* Build configuration list for PBXNativeTarget "ViewBasedCell2" */;
+			buildPhases = (
+				A9254A661421F2D900287D3B /* Sources */,
+				A9254A671421F2D900287D3B /* Frameworks */,
+				A9254A681421F2D900287D3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ViewBasedCell2;
+			productName = ViewBasedCell2;
+			productReference = A9254A6A1421F2D900287D3B /* ViewBasedCell2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9254A611421F2D800287D3B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = A9254A641421F2D800287D3B /* Build configuration list for PBXProject "ViewBasedCell2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A9254A5F1421F2D800287D3B;
+			productRefGroup = A9254A6B1421F2D900287D3B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9254A691421F2D900287D3B /* ViewBasedCell2 */,
+				A9254A721421F2D900287D3B /* Deployment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9254A681421F2D900287D3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9254A7A1421F2D900287D3B /* InfoPlist.strings in Resources */,
+				A9254A811421F2D900287D3B /* MainMenu.xib in Resources */,
+				A9254A841421F2D900287D3B /* rb_main.rb in Resources */,
+				A9254A861421F2D900287D3B /* AppDelegate.rb in Resources */,
+				A9254A911421F2F700287D3B /* facebook.png in Resources */,
+				A9254A921421F2F700287D3B /* twitter.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9254A661421F2D900287D3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9254A7C1421F2D900287D3B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A9254A741421F2D900287D3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9254A691421F2D900287D3B /* ViewBasedCell2 */;
+			targetProxy = A9254A731421F2D900287D3B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A9254A781421F2D900287D3B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9254A791421F2D900287D3B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A9254A7F1421F2D900287D3B /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9254A801421F2D900287D3B /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9254A871421F2D900287D3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A9254A881421F2D900287D3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A9254A8A1421F2D900287D3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ViewBasedCell2/ViewBasedCell2-Prefix.pch";
+				INFOPLIST_FILE = "ViewBasedCell2/ViewBasedCell2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A9254A8B1421F2D900287D3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ViewBasedCell2/ViewBasedCell2-Prefix.pch";
+				INFOPLIST_FILE = "ViewBasedCell2/ViewBasedCell2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A9254A8D1421F2D900287D3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		A9254A8E1421F2D900287D3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9254A641421F2D800287D3B /* Build configuration list for PBXProject "ViewBasedCell2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9254A871421F2D900287D3B /* Debug */,
+				A9254A881421F2D900287D3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9254A891421F2D900287D3B /* Build configuration list for PBXNativeTarget "ViewBasedCell2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9254A8A1421F2D900287D3B /* Debug */,
+				A9254A8B1421F2D900287D3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A9254A8C1421F2D900287D3B /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9254A8D1421F2D900287D3B /* Debug */,
+				A9254A8E1421F2D900287D3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9254A611421F2D800287D3B /* Project object */;
+}
