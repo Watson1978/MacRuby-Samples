@@ -15,6 +15,7 @@
 		A902D7581423102B00C55C37 /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = A902D7571423102B00C55C37 /* rb_main.rb */; };
 		A902D75A1423102B00C55C37 /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = A902D7591423102B00C55C37 /* AppDelegate.rb */; };
 		A902D7641423189B00C55C37 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A902D7631423189B00C55C37 /* WebKit.framework */; };
+		A94FA5D21423B81F0047646B /* MarkdownViewer.icns in Resources */ = {isa = PBXBuildFile; fileRef = A94FA5D11423B81F0047646B /* MarkdownViewer.icns */; };
 		A9B47C4E14233B790094FD7E /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = A9B47C4D14233B790094FD7E /* style.css */; };
 		A9C6B67814238057006B2F2B /* MarkdownView.rb in Resources */ = {isa = PBXBuildFile; fileRef = A9C6B67714238057006B2F2B /* MarkdownView.rb */; };
 /* End PBXBuildFile section */
@@ -41,6 +42,7 @@
 		A902D7571423102B00C55C37 /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
 		A902D7591423102B00C55C37 /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
 		A902D7631423189B00C55C37 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		A94FA5D11423B81F0047646B /* MarkdownViewer.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = MarkdownViewer.icns; sourceTree = SOURCE_ROOT; };
 		A9B47C4D14233B790094FD7E /* style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
 		A9C6B67714238057006B2F2B /* MarkdownView.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = MarkdownView.rb; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -112,6 +114,7 @@
 		A902D7521423102B00C55C37 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				A94FA5D11423B81F0047646B /* MarkdownViewer.icns */,
 				A9B47C4D14233B790094FD7E /* style.css */,
 				A902D7531423102B00C55C37 /* MainMenu.xib */,
 			);
@@ -201,6 +204,7 @@
 				A902D75A1423102B00C55C37 /* AppDelegate.rb in Resources */,
 				A9B47C4E14233B790094FD7E /* style.css in Resources */,
 				A9C6B67814238057006B2F2B /* MarkdownView.rb in Resources */,
+				A94FA5D21423B81F0047646B /* MarkdownViewer.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
