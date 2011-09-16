@@ -18,10 +18,25 @@ class AppDelegate
   end
 
   def convert(sender)
-    path = File.expand_path(filePath.stringValue)
+    path  = File.expand_path(filePath.stringValue)
+    dir   = File.dirname(path) + "/"
+    nsurl = NSURL.URLWithString(dir)
+
+    res_path = NSBundle.mainBundle.resourcePath
+    
     md = RDiscount.new(File.read(path))
-    html = md.to_html
-    webView.mainFrame.loadHTMLString(html, baseURL:nil)
+    html =<<"EOS"
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="#{res_path}/style.css">
+</head>
+<body>
+#{md.to_html}
+</body>
+</html>
+EOS
+    webView.mainFrame.loadHTMLString(html, baseURL:nsurl)
   end
 end
 

@@ -15,6 +15,7 @@
 		A902D7581423102B00C55C37 /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = A902D7571423102B00C55C37 /* rb_main.rb */; };
 		A902D75A1423102B00C55C37 /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = A902D7591423102B00C55C37 /* AppDelegate.rb */; };
 		A902D7641423189B00C55C37 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A902D7631423189B00C55C37 /* WebKit.framework */; };
+		A9B47C4E14233B790094FD7E /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = A9B47C4D14233B790094FD7E /* style.css */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +40,7 @@
 		A902D7571423102B00C55C37 /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
 		A902D7591423102B00C55C37 /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
 		A902D7631423189B00C55C37 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		A9B47C4D14233B790094FD7E /* style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 		A902D7521423102B00C55C37 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				A9B47C4D14233B790094FD7E /* style.css */,
 				A902D7531423102B00C55C37 /* MainMenu.xib */,
 			);
 			name = Resources;
@@ -193,6 +196,7 @@
 				A902D7551423102B00C55C37 /* MainMenu.xib in Resources */,
 				A902D7581423102B00C55C37 /* rb_main.rb in Resources */,
 				A902D75A1423102B00C55C37 /* AppDelegate.rb in Resources */,
+				A9B47C4E14233B790094FD7E /* style.css in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,6 +351,7 @@
 				A902D75F1423102B00C55C37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A902D7601423102B00C55C37 /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
 			isa = XCConfigurationList;
@@ -355,6 +360,7 @@
 				A902D7621423102B00C55C37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
