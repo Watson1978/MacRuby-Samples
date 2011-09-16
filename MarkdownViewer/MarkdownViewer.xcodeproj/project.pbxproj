@@ -16,6 +16,7 @@
 		A902D75A1423102B00C55C37 /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = A902D7591423102B00C55C37 /* AppDelegate.rb */; };
 		A902D7641423189B00C55C37 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A902D7631423189B00C55C37 /* WebKit.framework */; };
 		A9B47C4E14233B790094FD7E /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = A9B47C4D14233B790094FD7E /* style.css */; };
+		A9C6B67814238057006B2F2B /* MarkdownView.rb in Resources */ = {isa = PBXBuildFile; fileRef = A9C6B67714238057006B2F2B /* MarkdownView.rb */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +42,7 @@
 		A902D7591423102B00C55C37 /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
 		A902D7631423189B00C55C37 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		A9B47C4D14233B790094FD7E /* style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
+		A9C6B67714238057006B2F2B /* MarkdownView.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = MarkdownView.rb; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 				A902D7521423102B00C55C37 /* Resources */,
 				A902D7561423102B00C55C37 /* Other Sources */,
 				A902D74A1423102B00C55C37 /* Supporting Files */,
+				A9C6B67714238057006B2F2B /* MarkdownView.rb */,
 			);
 			path = MarkdownViewer;
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 				A902D7581423102B00C55C37 /* rb_main.rb in Resources */,
 				A902D75A1423102B00C55C37 /* AppDelegate.rb in Resources */,
 				A9B47C4E14233B790094FD7E /* style.css in Resources */,
+				A9C6B67814238057006B2F2B /* MarkdownView.rb in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

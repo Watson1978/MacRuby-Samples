@@ -10,30 +10,56 @@ require 'rdiscount'
 
 class AppDelegate
   attr_accessor :window
-  attr_accessor :webView
-  attr_accessor :filePath
+  attr_accessor :markdownView
+
+  FILE_TYPES = ["md", "mkd", "markdown"]
 
   def applicationDidFinishLaunching(a_notification)
     # Insert code here to initialize your application
+    markdownView.setDelegate(self)
+    @file_path = ""
+  end
+
+  def markdownPerformDragOperation(sender)
+    pbd = sender.draggingPasteboard
+    files = pbd.propertyListForType(NSFilenamesPboardType)
+    if files.count > 1
+      # reject multiple files
+      return NSDragOperationNone
+    end
+    
+    path = files.last
+    ok = false
+    FILE_TYPES.each do |ext|
+      if File.extname(path) == "." + ext
+        ok = true
+        break
+      end
+    end
+    
+    return NSDragOperationNone if !ok
+
+    @file_path = path
+    self.convert(sender)
+    return NSDragOperationGeneric
   end
 
   def open(sender)
     panel = NSOpenPanel.openPanel
     panel.setCanChooseDirectories(false)
-    file_types = ["md", "mkd", "markdown"]
     result = panel.runModalForDirectory(NSHomeDirectory(),
                                         file:nil, 
-                                        types:file_types)
+                                        types:FILE_TYPES)
     if(result == NSOKButton)
       path = panel.filename
-      filePath.stringValue = path
+      @file_path = path
       self.convert(sender)
     end
   end
-  
-  
+
   def convert(sender)
-    path  = File.expand_path(filePath.stringValue)
+    return if @file_path.length == 0
+    path  = File.expand_path(@file_path)
     dir   = File.dirname(path) + "/"
     nsurl = NSURL.URLWithString(dir)
 
@@ -51,7 +77,7 @@ class AppDelegate
 </body>
 </html>
 EOS
-    webView.mainFrame.loadHTMLString(html, baseURL:nsurl)
+    markdownView.mainFrame.loadHTMLString(html, baseURL:nsurl)
   end
 end
 
