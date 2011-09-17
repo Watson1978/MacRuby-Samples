@@ -17,6 +17,7 @@ class AppDelegate
   def applicationDidFinishLaunching(a_notification)
     markdownView.delegate = self
     @file_path = ""
+    markdownView.mainFrame.loadHTMLString(File.read("#{NSBundle.mainBundle.resourcePath}/init.html"), baseURL:nil)
   end
 
   def applicationOpenUntitledFile(sender)
