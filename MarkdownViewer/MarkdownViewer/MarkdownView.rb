@@ -21,7 +21,7 @@ class MarkdownView < WebView
   end
 
   def performDragOperation(sender)
-    return @delegate.markdownPerformDragOperation(sender)
+    return @delegate.performDragOperation(sender)
   end
   
 
