@@ -3,20 +3,19 @@
 #  MarkdownViewer
 #
 #  Created by Watson on 11/09/16.
-#  Copyright 2011年 __MyCompanyName__. All rights reserved.
 #
 require 'rubygems'
 require 'rdiscount'
 
 class AppDelegate
+  # outlet
   attr_accessor :window
   attr_accessor :markdownView
 
   FILE_TYPES = ["md", "mkd", "markdown"]
 
   def applicationDidFinishLaunching(a_notification)
-    # Insert code here to initialize your application
-    markdownView.setDelegate(self)
+    markdownView.delegate = self
     @file_path = ""
   end
 
@@ -28,23 +27,13 @@ class AppDelegate
   def performDragOperation(sender)
     pbd = sender.draggingPasteboard
     files = pbd.propertyListForType(NSFilenamesPboardType)
-    if files.count > 1
-      # reject multiple files
-      return NSDragOperationNone
-    end
-    
-    path = files.last
-    ok = false
-    FILE_TYPES.each do |ext|
-      if File.extname(path) == "." + ext
-        ok = true
-        break
-      end
-    end
-    
-    return NSDragOperationNone if !ok
 
-    @file_path = path
+    # reject multiple files
+    return NSDragOperationNone if files.count > 1
+    # reject unknown file types
+    return NSDragOperationNone if !can_open?(files.last)
+
+    @file_path = files.last
     self.convert(sender)
     return NSDragOperationGeneric
   end
@@ -53,7 +42,7 @@ class AppDelegate
     panel = NSOpenPanel.openPanel
     panel.setCanChooseDirectories(false)
     result = panel.runModalForDirectory(NSHomeDirectory(),
-                                        file:nil, 
+                                        file:nil,
                                         types:FILE_TYPES)
     if(result == NSOKButton)
       path = panel.filename
@@ -69,10 +58,9 @@ class AppDelegate
     path  = File.expand_path(@file_path)
     dir   = File.dirname(path) + "/"
     nsurl = NSURL.URLWithString(dir)
-
     res_path = NSBundle.mainBundle.resourcePath
-    
     md = RDiscount.new(File.read(path))
+
     html =<<"EOS"
 <html>
 <head>
@@ -86,7 +74,7 @@ class AppDelegate
 EOS
     markdownView.mainFrame.loadHTMLString(html, baseURL:nsurl)
   end
-  
+
   def displayWindow
     window.makeKeyAndOrderFront(nil)
     if markdownView.mainFrame.nil?
@@ -96,5 +84,13 @@ EOS
       markdownView.initWithFrame(rect, frameName:"", groupName:"")
     end
   end
-end
 
+  def can_open?(path)
+    FILE_TYPES.each do |ext|
+      if File.extname(path) == "." + ext
+        return true
+      end
+    end
+    return false
+  end
+end

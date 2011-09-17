@@ -3,11 +3,9 @@
 //  MarkdownViewer
 //
 //  Created by Watson on 11/09/16.
-//  Copyright (c) 2011年 __MyCompanyName__. All rights reserved.
 //
 
 #import <Cocoa/Cocoa.h>
-
 #import <MacRuby/MacRuby.h>
 
 int main(int argc, char *argv[])
