@@ -1,0 +1,363 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A964201914261E5100D14C30 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A964201814261E5100D14C30 /* Cocoa.framework */; };
+		A964201B14261E5100D14C30 /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A964201A14261E5100D14C30 /* MacRuby.framework */; };
+		A964202414261E5100D14C30 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A964202214261E5100D14C30 /* InfoPlist.strings */; };
+		A964202614261E5100D14C30 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A964202514261E5100D14C30 /* main.m */; };
+		A964202B14261E5100D14C30 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A964202914261E5100D14C30 /* MainMenu.xib */; };
+		A964202E14261E5100D14C30 /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = A964202D14261E5100D14C30 /* rb_main.rb */; };
+		A964203014261E5100D14C30 /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = A964202F14261E5100D14C30 /* AppDelegate.rb */; };
+		A964203E142621BD00D14C30 /* ExifImageView.rb in Resources */ = {isa = PBXBuildFile; fileRef = A964203D142621BD00D14C30 /* ExifImageView.rb */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A964201D14261E5100D14C30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A964200B14261E5100D14C30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A964201314261E5100D14C30;
+			remoteInfo = ExifViewer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A964201414261E5100D14C30 /* ExifViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExifViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A964201814261E5100D14C30 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		A964201A14261E5100D14C30 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = Library/Frameworks/MacRuby.framework; sourceTree = DEVELOPER_DIR; };
+		A964202114261E5100D14C30 /* ExifViewer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ExifViewer-Info.plist"; sourceTree = "<group>"; };
+		A964202314261E5100D14C30 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A964202514261E5100D14C30 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A964202714261E5100D14C30 /* ExifViewer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ExifViewer-Prefix.pch"; sourceTree = "<group>"; };
+		A964202A14261E5100D14C30 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A964202D14261E5100D14C30 /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
+		A964202F14261E5100D14C30 /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+		A964203D142621BD00D14C30 /* ExifImageView.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = ExifImageView.rb; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A964201114261E5100D14C30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A964201914261E5100D14C30 /* Cocoa.framework in Frameworks */,
+				A964201B14261E5100D14C30 /* MacRuby.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A964200914261E5100D14C30 = {
+			isa = PBXGroup;
+			children = (
+				A964201F14261E5100D14C30 /* ExifViewer */,
+				A964201714261E5100D14C30 /* Frameworks */,
+				A964201514261E5100D14C30 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A964201514261E5100D14C30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A964201414261E5100D14C30 /* ExifViewer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A964201714261E5100D14C30 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A964201814261E5100D14C30 /* Cocoa.framework */,
+				A964201A14261E5100D14C30 /* MacRuby.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A964201F14261E5100D14C30 /* ExifViewer */ = {
+			isa = PBXGroup;
+			children = (
+				A964202F14261E5100D14C30 /* AppDelegate.rb */,
+				A964202814261E5100D14C30 /* Resources */,
+				A964202C14261E5100D14C30 /* Other Sources */,
+				A964202014261E5100D14C30 /* Supporting Files */,
+				A964203D142621BD00D14C30 /* ExifImageView.rb */,
+			);
+			path = ExifViewer;
+			sourceTree = "<group>";
+		};
+		A964202014261E5100D14C30 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A964202114261E5100D14C30 /* ExifViewer-Info.plist */,
+				A964202214261E5100D14C30 /* InfoPlist.strings */,
+				A964202514261E5100D14C30 /* main.m */,
+				A964202714261E5100D14C30 /* ExifViewer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A964202814261E5100D14C30 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A964202914261E5100D14C30 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A964202C14261E5100D14C30 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				A964202D14261E5100D14C30 /* rb_main.rb */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		A964201C14261E5100D14C30 /* Deployment */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "--compile --embed";
+			buildConfigurationList = A964203614261E5100D14C30 /* Build configuration list for PBXLegacyTarget "Deployment" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/local/bin/macruby_deploy;
+			dependencies = (
+				A964201E14261E5100D14C30 /* PBXTargetDependency */,
+			);
+			name = Deployment;
+			passBuildSettingsInEnvironment = 1;
+			productName = Deployment;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		A964201314261E5100D14C30 /* ExifViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A964203314261E5100D14C30 /* Build configuration list for PBXNativeTarget "ExifViewer" */;
+			buildPhases = (
+				A964201014261E5100D14C30 /* Sources */,
+				A964201114261E5100D14C30 /* Frameworks */,
+				A964201214261E5100D14C30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExifViewer;
+			productName = ExifViewer;
+			productReference = A964201414261E5100D14C30 /* ExifViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A964200B14261E5100D14C30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = A964200E14261E5100D14C30 /* Build configuration list for PBXProject "ExifViewer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A964200914261E5100D14C30;
+			productRefGroup = A964201514261E5100D14C30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A964201314261E5100D14C30 /* ExifViewer */,
+				A964201C14261E5100D14C30 /* Deployment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A964201214261E5100D14C30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A964202414261E5100D14C30 /* InfoPlist.strings in Resources */,
+				A964202B14261E5100D14C30 /* MainMenu.xib in Resources */,
+				A964202E14261E5100D14C30 /* rb_main.rb in Resources */,
+				A964203014261E5100D14C30 /* AppDelegate.rb in Resources */,
+				A964203E142621BD00D14C30 /* ExifImageView.rb in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A964201014261E5100D14C30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A964202614261E5100D14C30 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A964201E14261E5100D14C30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A964201314261E5100D14C30 /* ExifViewer */;
+			targetProxy = A964201D14261E5100D14C30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A964202214261E5100D14C30 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A964202314261E5100D14C30 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A964202914261E5100D14C30 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A964202A14261E5100D14C30 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A964203114261E5100D14C30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = "";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = "";
+			};
+			name = Debug;
+		};
+		A964203214261E5100D14C30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = "";
+				SDKROOT = "";
+			};
+			name = Release;
+		};
+		A964203414261E5100D14C30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ExifViewer/ExifViewer-Prefix.pch";
+				INFOPLIST_FILE = "ExifViewer/ExifViewer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A964203514261E5100D14C30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ExifViewer/ExifViewer-Prefix.pch";
+				INFOPLIST_FILE = "ExifViewer/ExifViewer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A964203714261E5100D14C30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		A964203814261E5100D14C30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A964200E14261E5100D14C30 /* Build configuration list for PBXProject "ExifViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A964203114261E5100D14C30 /* Debug */,
+				A964203214261E5100D14C30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A964203314261E5100D14C30 /* Build configuration list for PBXNativeTarget "ExifViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A964203414261E5100D14C30 /* Debug */,
+				A964203514261E5100D14C30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A964203614261E5100D14C30 /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A964203714261E5100D14C30 /* Debug */,
+				A964203814261E5100D14C30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A964200B14261E5100D14C30 /* Project object */;
+}
