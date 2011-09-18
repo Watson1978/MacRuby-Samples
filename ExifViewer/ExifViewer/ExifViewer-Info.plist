@@ -26,5 +26,33 @@
 	<string>MainMenu</string>
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
+
+	<key>CFBundleDocumentTypes</key>
+	<array>
+	<dict>
+	<key>CFBundleTypeExtensions</key>
+	<array>
+		<string>jpg</string>
+		<string>jpeg</string>
+	</array>
+	<key>CFBundleTypeIconFile</key>
+	<string>document.icns</string>
+	<key>CFBundleTypeMIMETypes</key>
+	<array>
+		<string>image/jpeg</string>
+	</array>
+	<key>CFBundleTypeName</key>
+	<string>JPEG image</string>
+	<key>CFBundleTypeOSTypes</key>
+	<array>
+		<string>JPEG</string>
+	</array>
+	<key>CFBundleTypeRole</key>
+	<string>Viewer</string>
+	<key>NSDocumentClass</key>
+	<string>BrowserDocument</string>
+	</dict>
+	</array>
+
 </dict>
 </plist>

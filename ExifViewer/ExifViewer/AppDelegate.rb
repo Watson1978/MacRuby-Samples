@@ -16,6 +16,14 @@ class AppDelegate
     imageView.delegate = self
   end
   
+  def application(theApplication,
+                  openFile:path)
+    image = NSImage.alloc.initWithContentsOfFile(path)
+    imageView.image = image
+    viewMetaData(path)
+    return true
+  end
+
   def performDragOperation(sender)
     pbd = sender.draggingPasteboard
     files = pbd.propertyListForType(NSFilenamesPboardType)
