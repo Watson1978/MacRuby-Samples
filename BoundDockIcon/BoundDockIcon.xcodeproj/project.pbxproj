@@ -1,0 +1,357 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A968D0A51435FAE5003280B2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A968D0A41435FAE5003280B2 /* Cocoa.framework */; };
+		A968D0A71435FAE5003280B2 /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A968D0A61435FAE5003280B2 /* MacRuby.framework */; };
+		A968D0B01435FAE5003280B2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A968D0AE1435FAE5003280B2 /* InfoPlist.strings */; };
+		A968D0B21435FAE5003280B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A968D0B11435FAE5003280B2 /* main.m */; };
+		A968D0B71435FAE5003280B2 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A968D0B51435FAE5003280B2 /* MainMenu.xib */; };
+		A968D0BA1435FAE5003280B2 /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = A968D0B91435FAE5003280B2 /* rb_main.rb */; };
+		A968D0BC1435FAE5003280B2 /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = A968D0BB1435FAE5003280B2 /* AppDelegate.rb */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A968D0A91435FAE5003280B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A968D0971435FAE4003280B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A968D09F1435FAE5003280B2;
+			remoteInfo = BoundDockIcon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A968D0A01435FAE5003280B2 /* BoundDockIcon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoundDockIcon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A968D0A41435FAE5003280B2 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		A968D0A61435FAE5003280B2 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = Library/Frameworks/MacRuby.framework; sourceTree = DEVELOPER_DIR; };
+		A968D0AD1435FAE5003280B2 /* BoundDockIcon-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BoundDockIcon-Info.plist"; sourceTree = "<group>"; };
+		A968D0AF1435FAE5003280B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A968D0B11435FAE5003280B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A968D0B31435FAE5003280B2 /* BoundDockIcon-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BoundDockIcon-Prefix.pch"; sourceTree = "<group>"; };
+		A968D0B61435FAE5003280B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A968D0B91435FAE5003280B2 /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
+		A968D0BB1435FAE5003280B2 /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A968D09D1435FAE5003280B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A968D0A51435FAE5003280B2 /* Cocoa.framework in Frameworks */,
+				A968D0A71435FAE5003280B2 /* MacRuby.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A968D0951435FAE4003280B2 = {
+			isa = PBXGroup;
+			children = (
+				A968D0AB1435FAE5003280B2 /* BoundDockIcon */,
+				A968D0A31435FAE5003280B2 /* Frameworks */,
+				A968D0A11435FAE5003280B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A968D0A11435FAE5003280B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A968D0A01435FAE5003280B2 /* BoundDockIcon.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A968D0A31435FAE5003280B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A968D0A41435FAE5003280B2 /* Cocoa.framework */,
+				A968D0A61435FAE5003280B2 /* MacRuby.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A968D0AB1435FAE5003280B2 /* BoundDockIcon */ = {
+			isa = PBXGroup;
+			children = (
+				A968D0BB1435FAE5003280B2 /* AppDelegate.rb */,
+				A968D0B41435FAE5003280B2 /* Resources */,
+				A968D0B81435FAE5003280B2 /* Other Sources */,
+				A968D0AC1435FAE5003280B2 /* Supporting Files */,
+			);
+			path = BoundDockIcon;
+			sourceTree = "<group>";
+		};
+		A968D0AC1435FAE5003280B2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A968D0AD1435FAE5003280B2 /* BoundDockIcon-Info.plist */,
+				A968D0AE1435FAE5003280B2 /* InfoPlist.strings */,
+				A968D0B11435FAE5003280B2 /* main.m */,
+				A968D0B31435FAE5003280B2 /* BoundDockIcon-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A968D0B41435FAE5003280B2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A968D0B51435FAE5003280B2 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A968D0B81435FAE5003280B2 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				A968D0B91435FAE5003280B2 /* rb_main.rb */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		A968D0A81435FAE5003280B2 /* Deployment */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "--compile --embed";
+			buildConfigurationList = A968D0C21435FAE5003280B2 /* Build configuration list for PBXLegacyTarget "Deployment" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/local/bin/macruby_deploy;
+			dependencies = (
+				A968D0AA1435FAE5003280B2 /* PBXTargetDependency */,
+			);
+			name = Deployment;
+			passBuildSettingsInEnvironment = 1;
+			productName = Deployment;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		A968D09F1435FAE5003280B2 /* BoundDockIcon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A968D0BF1435FAE5003280B2 /* Build configuration list for PBXNativeTarget "BoundDockIcon" */;
+			buildPhases = (
+				A968D09C1435FAE5003280B2 /* Sources */,
+				A968D09D1435FAE5003280B2 /* Frameworks */,
+				A968D09E1435FAE5003280B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BoundDockIcon;
+			productName = BoundDockIcon;
+			productReference = A968D0A01435FAE5003280B2 /* BoundDockIcon.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A968D0971435FAE4003280B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = A968D09A1435FAE4003280B2 /* Build configuration list for PBXProject "BoundDockIcon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A968D0951435FAE4003280B2;
+			productRefGroup = A968D0A11435FAE5003280B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A968D09F1435FAE5003280B2 /* BoundDockIcon */,
+				A968D0A81435FAE5003280B2 /* Deployment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A968D09E1435FAE5003280B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A968D0B01435FAE5003280B2 /* InfoPlist.strings in Resources */,
+				A968D0B71435FAE5003280B2 /* MainMenu.xib in Resources */,
+				A968D0BA1435FAE5003280B2 /* rb_main.rb in Resources */,
+				A968D0BC1435FAE5003280B2 /* AppDelegate.rb in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A968D09C1435FAE5003280B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A968D0B21435FAE5003280B2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A968D0AA1435FAE5003280B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A968D09F1435FAE5003280B2 /* BoundDockIcon */;
+			targetProxy = A968D0A91435FAE5003280B2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A968D0AE1435FAE5003280B2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A968D0AF1435FAE5003280B2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A968D0B51435FAE5003280B2 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A968D0B61435FAE5003280B2 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A968D0BD1435FAE5003280B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A968D0BE1435FAE5003280B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A968D0C01435FAE5003280B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BoundDockIcon/BoundDockIcon-Prefix.pch";
+				INFOPLIST_FILE = "BoundDockIcon/BoundDockIcon-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A968D0C11435FAE5003280B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BoundDockIcon/BoundDockIcon-Prefix.pch";
+				INFOPLIST_FILE = "BoundDockIcon/BoundDockIcon-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A968D0C31435FAE5003280B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		A968D0C41435FAE5003280B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A968D09A1435FAE4003280B2 /* Build configuration list for PBXProject "BoundDockIcon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A968D0BD1435FAE5003280B2 /* Debug */,
+				A968D0BE1435FAE5003280B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A968D0BF1435FAE5003280B2 /* Build configuration list for PBXNativeTarget "BoundDockIcon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A968D0C01435FAE5003280B2 /* Debug */,
+				A968D0C11435FAE5003280B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A968D0C21435FAE5003280B2 /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A968D0C31435FAE5003280B2 /* Debug */,
+				A968D0C41435FAE5003280B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A968D0971435FAE4003280B2 /* Project object */;
+}
