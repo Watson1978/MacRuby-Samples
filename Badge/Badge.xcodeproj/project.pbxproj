@@ -1,0 +1,357 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A92A341714360942005C6796 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A92A341614360942005C6796 /* Cocoa.framework */; };
+		A92A341914360942005C6796 /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A92A341814360942005C6796 /* MacRuby.framework */; };
+		A92A342214360942005C6796 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A92A342014360942005C6796 /* InfoPlist.strings */; };
+		A92A342414360942005C6796 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A92A342314360942005C6796 /* main.m */; };
+		A92A342914360942005C6796 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A92A342714360942005C6796 /* MainMenu.xib */; };
+		A92A342C14360942005C6796 /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = A92A342B14360942005C6796 /* rb_main.rb */; };
+		A92A342E14360942005C6796 /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = A92A342D14360942005C6796 /* AppDelegate.rb */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A92A341B14360942005C6796 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A92A340914360942005C6796 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A92A341114360942005C6796;
+			remoteInfo = Badge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A92A341214360942005C6796 /* Badge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Badge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A92A341614360942005C6796 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		A92A341814360942005C6796 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = Library/Frameworks/MacRuby.framework; sourceTree = DEVELOPER_DIR; };
+		A92A341F14360942005C6796 /* Badge-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Badge-Info.plist"; sourceTree = "<group>"; };
+		A92A342114360942005C6796 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A92A342314360942005C6796 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A92A342514360942005C6796 /* Badge-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Badge-Prefix.pch"; sourceTree = "<group>"; };
+		A92A342814360942005C6796 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A92A342B14360942005C6796 /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
+		A92A342D14360942005C6796 /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A92A340F14360942005C6796 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A92A341714360942005C6796 /* Cocoa.framework in Frameworks */,
+				A92A341914360942005C6796 /* MacRuby.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A92A340714360942005C6796 = {
+			isa = PBXGroup;
+			children = (
+				A92A341D14360942005C6796 /* Badge */,
+				A92A341514360942005C6796 /* Frameworks */,
+				A92A341314360942005C6796 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A92A341314360942005C6796 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A92A341214360942005C6796 /* Badge.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A92A341514360942005C6796 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A92A341614360942005C6796 /* Cocoa.framework */,
+				A92A341814360942005C6796 /* MacRuby.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A92A341D14360942005C6796 /* Badge */ = {
+			isa = PBXGroup;
+			children = (
+				A92A342D14360942005C6796 /* AppDelegate.rb */,
+				A92A342614360942005C6796 /* Resources */,
+				A92A342A14360942005C6796 /* Other Sources */,
+				A92A341E14360942005C6796 /* Supporting Files */,
+			);
+			path = Badge;
+			sourceTree = "<group>";
+		};
+		A92A341E14360942005C6796 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A92A341F14360942005C6796 /* Badge-Info.plist */,
+				A92A342014360942005C6796 /* InfoPlist.strings */,
+				A92A342314360942005C6796 /* main.m */,
+				A92A342514360942005C6796 /* Badge-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A92A342614360942005C6796 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A92A342714360942005C6796 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A92A342A14360942005C6796 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				A92A342B14360942005C6796 /* rb_main.rb */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		A92A341A14360942005C6796 /* Deployment */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "--compile --embed";
+			buildConfigurationList = A92A343414360942005C6796 /* Build configuration list for PBXLegacyTarget "Deployment" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/local/bin/macruby_deploy;
+			dependencies = (
+				A92A341C14360942005C6796 /* PBXTargetDependency */,
+			);
+			name = Deployment;
+			passBuildSettingsInEnvironment = 1;
+			productName = Deployment;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		A92A341114360942005C6796 /* Badge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A92A343114360942005C6796 /* Build configuration list for PBXNativeTarget "Badge" */;
+			buildPhases = (
+				A92A340E14360942005C6796 /* Sources */,
+				A92A340F14360942005C6796 /* Frameworks */,
+				A92A341014360942005C6796 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Badge;
+			productName = Badge;
+			productReference = A92A341214360942005C6796 /* Badge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A92A340914360942005C6796 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = A92A340C14360942005C6796 /* Build configuration list for PBXProject "Badge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A92A340714360942005C6796;
+			productRefGroup = A92A341314360942005C6796 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A92A341114360942005C6796 /* Badge */,
+				A92A341A14360942005C6796 /* Deployment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A92A341014360942005C6796 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A92A342214360942005C6796 /* InfoPlist.strings in Resources */,
+				A92A342914360942005C6796 /* MainMenu.xib in Resources */,
+				A92A342C14360942005C6796 /* rb_main.rb in Resources */,
+				A92A342E14360942005C6796 /* AppDelegate.rb in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A92A340E14360942005C6796 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A92A342414360942005C6796 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A92A341C14360942005C6796 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A92A341114360942005C6796 /* Badge */;
+			targetProxy = A92A341B14360942005C6796 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A92A342014360942005C6796 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A92A342114360942005C6796 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A92A342714360942005C6796 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A92A342814360942005C6796 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A92A342F14360942005C6796 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A92A343014360942005C6796 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A92A343214360942005C6796 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Badge/Badge-Prefix.pch";
+				INFOPLIST_FILE = "Badge/Badge-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A92A343314360942005C6796 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Badge/Badge-Prefix.pch";
+				INFOPLIST_FILE = "Badge/Badge-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A92A343514360942005C6796 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		A92A343614360942005C6796 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A92A340C14360942005C6796 /* Build configuration list for PBXProject "Badge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A92A342F14360942005C6796 /* Debug */,
+				A92A343014360942005C6796 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A92A343114360942005C6796 /* Build configuration list for PBXNativeTarget "Badge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A92A343214360942005C6796 /* Debug */,
+				A92A343314360942005C6796 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A92A343414360942005C6796 /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A92A343514360942005C6796 /* Debug */,
+				A92A343614360942005C6796 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A92A340914360942005C6796 /* Project object */;
+}
