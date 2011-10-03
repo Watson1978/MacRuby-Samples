@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A9349480143A0D620029FAA7 /* Translator.icns in Resources */ = {isa = PBXBuildFile; fileRef = A934947F143A0D620029FAA7 /* Translator.icns */; };
 		A94B7B091379927900CA3535 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A94B7B081379927900CA3535 /* Cocoa.framework */; };
 		A94B7B0B1379927900CA3535 /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A94B7B0A1379927900CA3535 /* MacRuby.framework */; };
 		A94B7B121379927900CA3535 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A94B7B101379927900CA3535 /* InfoPlist.strings */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A934947F143A0D620029FAA7 /* Translator.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Translator.icns; sourceTree = "<group>"; };
 		A94B7B041379927900CA3535 /* Translator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Translator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A94B7B081379927900CA3535 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		A94B7B0A1379927900CA3535 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = System/Library/Frameworks/MacRuby.framework; sourceTree = SDKROOT; };
@@ -93,6 +95,7 @@
 		A94B7B161379927900CA3535 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				A934947F143A0D620029FAA7 /* Translator.icns */,
 				A94B7B171379927900CA3535 /* MainMenu.xib */,
 			);
 			name = Resources;
@@ -147,6 +150,9 @@
 /* Begin PBXProject section */
 		A94B7AFB1379927900CA3535 /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
 			buildConfigurationList = A94B7AFE1379927900CA3535 /* Build configuration list for PBXProject "Translator" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
@@ -174,6 +180,7 @@
 				A94B7B191379927900CA3535 /* MainMenu.xib in Resources */,
 				A94B7B1C1379927900CA3535 /* rb_main.rb in Resources */,
 				A94B7B1E1379927900CA3535 /* AppDelegate.rb in Resources */,
+				A9349480143A0D620029FAA7 /* Translator.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,13 +225,13 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_VERSION = "";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
+				SDKROOT = "";
 			};
 			name = Debug;
 		};
@@ -233,12 +240,12 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_VERSION = "";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
-				SDKROOT = macosx;
+				SDKROOT = "";
 			};
 			name = Release;
 		};
@@ -307,6 +314,7 @@
 				A94B7B231379927900CA3535 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A94B7B241379927900CA3535 /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
 			isa = XCConfigurationList;
@@ -315,6 +323,7 @@
 				A94B7B261379927900CA3535 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
