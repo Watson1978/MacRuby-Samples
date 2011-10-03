@@ -15,28 +15,28 @@ class AppDelegate
   require 'open-uri'
 
   attr_accessor :window, :text # outlet
-  
+
   def applicationDidFinishLaunching(a_notification)
     NSApp.setServicesProvider(self)
   end
-  
+
   def doService(pboard, userData:userData, error:error)
     window.makeKeyAndOrderFront(nil)
     string = pboard.stringForType(NSStringPboardType)
-    
+
     translate(string)
   end
-  
+
   # delegator, action
   def execTranslate(sender)
     string = getText
     translate(string)
   end
-  
+
   def translate(str)
     source = 'en'
     target = 'ja'
-        if str.length > 0
+    if str.length > 0
       open(URI.escape("https://www.googleapis.com/language/translate/v2?key=#{API_KEY}&source=#{source}&target=#{target}&q=#{str}")) {|f|
         str = f.read
         js = JSON.parse(str)
