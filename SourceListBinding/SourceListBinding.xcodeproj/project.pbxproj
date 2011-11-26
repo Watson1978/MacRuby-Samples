@@ -1,0 +1,357 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A92BAF9F148183E100A41F17 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A92BAF9E148183E100A41F17 /* Cocoa.framework */; };
+		A92BAFA1148183E100A41F17 /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A92BAFA0148183E100A41F17 /* MacRuby.framework */; };
+		A92BAFAA148183E100A41F17 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A92BAFA8148183E100A41F17 /* InfoPlist.strings */; };
+		A92BAFAC148183E100A41F17 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A92BAFAB148183E100A41F17 /* main.m */; };
+		A92BAFB1148183E100A41F17 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A92BAFAF148183E100A41F17 /* MainMenu.xib */; };
+		A92BAFB4148183E100A41F17 /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = A92BAFB3148183E100A41F17 /* rb_main.rb */; };
+		A92BAFB6148183E100A41F17 /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = A92BAFB5148183E100A41F17 /* AppDelegate.rb */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A92BAFA3148183E100A41F17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A92BAF91148183E000A41F17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A92BAF99148183E100A41F17;
+			remoteInfo = SourceListBinding;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A92BAF9A148183E100A41F17 /* SourceListBinding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SourceListBinding.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A92BAF9E148183E100A41F17 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		A92BAFA0148183E100A41F17 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = Library/Frameworks/MacRuby.framework; sourceTree = DEVELOPER_DIR; };
+		A92BAFA7148183E100A41F17 /* SourceListBinding-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SourceListBinding-Info.plist"; sourceTree = "<group>"; };
+		A92BAFA9148183E100A41F17 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A92BAFAB148183E100A41F17 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A92BAFAD148183E100A41F17 /* SourceListBinding-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SourceListBinding-Prefix.pch"; sourceTree = "<group>"; };
+		A92BAFB0148183E100A41F17 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A92BAFB3148183E100A41F17 /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
+		A92BAFB5148183E100A41F17 /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A92BAF97148183E100A41F17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A92BAF9F148183E100A41F17 /* Cocoa.framework in Frameworks */,
+				A92BAFA1148183E100A41F17 /* MacRuby.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A92BAF8F148183E000A41F17 = {
+			isa = PBXGroup;
+			children = (
+				A92BAFA5148183E100A41F17 /* SourceListBinding */,
+				A92BAF9D148183E100A41F17 /* Frameworks */,
+				A92BAF9B148183E100A41F17 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A92BAF9B148183E100A41F17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A92BAF9A148183E100A41F17 /* SourceListBinding.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A92BAF9D148183E100A41F17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A92BAF9E148183E100A41F17 /* Cocoa.framework */,
+				A92BAFA0148183E100A41F17 /* MacRuby.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A92BAFA5148183E100A41F17 /* SourceListBinding */ = {
+			isa = PBXGroup;
+			children = (
+				A92BAFB5148183E100A41F17 /* AppDelegate.rb */,
+				A92BAFAE148183E100A41F17 /* Resources */,
+				A92BAFB2148183E100A41F17 /* Other Sources */,
+				A92BAFA6148183E100A41F17 /* Supporting Files */,
+			);
+			path = SourceListBinding;
+			sourceTree = "<group>";
+		};
+		A92BAFA6148183E100A41F17 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A92BAFA7148183E100A41F17 /* SourceListBinding-Info.plist */,
+				A92BAFA8148183E100A41F17 /* InfoPlist.strings */,
+				A92BAFAB148183E100A41F17 /* main.m */,
+				A92BAFAD148183E100A41F17 /* SourceListBinding-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A92BAFAE148183E100A41F17 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A92BAFAF148183E100A41F17 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A92BAFB2148183E100A41F17 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				A92BAFB3148183E100A41F17 /* rb_main.rb */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		A92BAFA2148183E100A41F17 /* Deployment */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "--compile --embed";
+			buildConfigurationList = A92BAFBC148183E100A41F17 /* Build configuration list for PBXLegacyTarget "Deployment" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/local/bin/macruby_deploy;
+			dependencies = (
+				A92BAFA4148183E100A41F17 /* PBXTargetDependency */,
+			);
+			name = Deployment;
+			passBuildSettingsInEnvironment = 1;
+			productName = Deployment;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		A92BAF99148183E100A41F17 /* SourceListBinding */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A92BAFB9148183E100A41F17 /* Build configuration list for PBXNativeTarget "SourceListBinding" */;
+			buildPhases = (
+				A92BAF96148183E100A41F17 /* Sources */,
+				A92BAF97148183E100A41F17 /* Frameworks */,
+				A92BAF98148183E100A41F17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SourceListBinding;
+			productName = SourceListBinding;
+			productReference = A92BAF9A148183E100A41F17 /* SourceListBinding.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A92BAF91148183E000A41F17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = A92BAF94148183E000A41F17 /* Build configuration list for PBXProject "SourceListBinding" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A92BAF8F148183E000A41F17;
+			productRefGroup = A92BAF9B148183E100A41F17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A92BAF99148183E100A41F17 /* SourceListBinding */,
+				A92BAFA2148183E100A41F17 /* Deployment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A92BAF98148183E100A41F17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A92BAFAA148183E100A41F17 /* InfoPlist.strings in Resources */,
+				A92BAFB1148183E100A41F17 /* MainMenu.xib in Resources */,
+				A92BAFB4148183E100A41F17 /* rb_main.rb in Resources */,
+				A92BAFB6148183E100A41F17 /* AppDelegate.rb in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A92BAF96148183E100A41F17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A92BAFAC148183E100A41F17 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A92BAFA4148183E100A41F17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A92BAF99148183E100A41F17 /* SourceListBinding */;
+			targetProxy = A92BAFA3148183E100A41F17 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A92BAFA8148183E100A41F17 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A92BAFA9148183E100A41F17 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A92BAFAF148183E100A41F17 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A92BAFB0148183E100A41F17 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A92BAFB7148183E100A41F17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A92BAFB8148183E100A41F17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A92BAFBA148183E100A41F17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SourceListBinding/SourceListBinding-Prefix.pch";
+				INFOPLIST_FILE = "SourceListBinding/SourceListBinding-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A92BAFBB148183E100A41F17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SourceListBinding/SourceListBinding-Prefix.pch";
+				INFOPLIST_FILE = "SourceListBinding/SourceListBinding-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A92BAFBD148183E100A41F17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		A92BAFBE148183E100A41F17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A92BAF94148183E000A41F17 /* Build configuration list for PBXProject "SourceListBinding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A92BAFB7148183E100A41F17 /* Debug */,
+				A92BAFB8148183E100A41F17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A92BAFB9148183E100A41F17 /* Build configuration list for PBXNativeTarget "SourceListBinding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A92BAFBA148183E100A41F17 /* Debug */,
+				A92BAFBB148183E100A41F17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A92BAFBC148183E100A41F17 /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A92BAFBD148183E100A41F17 /* Debug */,
+				A92BAFBE148183E100A41F17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A92BAF91148183E000A41F17 /* Project object */;
+}
