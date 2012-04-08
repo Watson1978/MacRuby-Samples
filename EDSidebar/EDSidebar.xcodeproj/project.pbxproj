@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A99579C61531C47C00ABA9E6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A99579C51531C47C00ABA9E6 /* Cocoa.framework */; };
+		A99579C81531C47C00ABA9E6 /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A99579C71531C47C00ABA9E6 /* MacRuby.framework */; };
+		A99579D11531C47C00ABA9E6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A99579CF1531C47C00ABA9E6 /* InfoPlist.strings */; };
+		A99579D31531C47C00ABA9E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A99579D21531C47C00ABA9E6 /* main.m */; };
+		A99579D81531C47C00ABA9E6 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A99579D61531C47C00ABA9E6 /* MainMenu.xib */; };
+		A99579DB1531C47C00ABA9E6 /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = A99579DA1531C47C00ABA9E6 /* rb_main.rb */; };
+		A99579DD1531C47C00ABA9E6 /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = A99579DC1531C47C00ABA9E6 /* AppDelegate.rb */; };
+		A99579E81531C4C600ABA9E6 /* EDSideBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A99579E71531C4C600ABA9E6 /* EDSideBar.m */; };
+		A99579F21531C6A200ABA9E6 /* blue.png in Resources */ = {isa = PBXBuildFile; fileRef = A99579EE1531C6A200ABA9E6 /* blue.png */; };
+		A99579F31531C6A200ABA9E6 /* icon1-blue.png in Resources */ = {isa = PBXBuildFile; fileRef = A99579EF1531C6A200ABA9E6 /* icon1-blue.png */; };
+		A99579F41531C6A200ABA9E6 /* icon1-gray.png in Resources */ = {isa = PBXBuildFile; fileRef = A99579F01531C6A200ABA9E6 /* icon1-gray.png */; };
+		A99579F51531C6A200ABA9E6 /* icon1-white.png in Resources */ = {isa = PBXBuildFile; fileRef = A99579F11531C6A200ABA9E6 /* icon1-white.png */; };
+		A99579FB1531C8E200ABA9E6 /* BlackCell.rb in Resources */ = {isa = PBXBuildFile; fileRef = A99579FA1531C8E200ABA9E6 /* BlackCell.rb */; };
+		A9957A011531CB1600ABA9E6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9957A001531CB1600ABA9E6 /* QuartzCore.framework */; };
+		A9957A071531D22E00ABA9E6 /* EDSideBar.bridgesupport in Resources */ = {isa = PBXBuildFile; fileRef = A9957A061531D22E00ABA9E6 /* EDSideBar.bridgesupport */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A99579CA1531C47C00ABA9E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A99579B81531C47C00ABA9E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A99579C01531C47C00ABA9E6;
+			remoteInfo = EDSidebar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A99579C11531C47C00ABA9E6 /* EDSidebar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EDSidebar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A99579C51531C47C00ABA9E6 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		A99579C71531C47C00ABA9E6 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = Library/Frameworks/MacRuby.framework; sourceTree = DEVELOPER_DIR; };
+		A99579CE1531C47C00ABA9E6 /* EDSidebar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EDSidebar-Info.plist"; sourceTree = "<group>"; };
+		A99579D01531C47C00ABA9E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A99579D21531C47C00ABA9E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A99579D41531C47C00ABA9E6 /* EDSidebar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EDSidebar-Prefix.pch"; sourceTree = "<group>"; };
+		A99579D71531C47C00ABA9E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A99579DA1531C47C00ABA9E6 /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
+		A99579DC1531C47C00ABA9E6 /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+		A99579E71531C4C600ABA9E6 /* EDSideBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EDSideBar.m; path = EDSidebar/EDSideBar/EDSideBar.m; sourceTree = "<group>"; };
+		A99579E91531C4D100ABA9E6 /* EDSideBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = EDSideBar.h; path = EDSidebar/EDSideBar/EDSideBar.h; sourceTree = "<group>"; };
+		A99579EE1531C6A200ABA9E6 /* blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blue.png; path = images/blue.png; sourceTree = "<group>"; };
+		A99579EF1531C6A200ABA9E6 /* icon1-blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon1-blue.png"; path = "images/icon1-blue.png"; sourceTree = "<group>"; };
+		A99579F01531C6A200ABA9E6 /* icon1-gray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon1-gray.png"; path = "images/icon1-gray.png"; sourceTree = "<group>"; };
+		A99579F11531C6A200ABA9E6 /* icon1-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon1-white.png"; path = "images/icon1-white.png"; sourceTree = "<group>"; };
+		A99579FA1531C8E200ABA9E6 /* BlackCell.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = BlackCell.rb; sourceTree = "<group>"; };
+		A9957A001531CB1600ABA9E6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A9957A061531D22E00ABA9E6 /* EDSideBar.bridgesupport */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = EDSideBar.bridgesupport; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A99579BE1531C47C00ABA9E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9957A011531CB1600ABA9E6 /* QuartzCore.framework in Frameworks */,
+				A99579C61531C47C00ABA9E6 /* Cocoa.framework in Frameworks */,
+				A99579C81531C47C00ABA9E6 /* MacRuby.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A99579B61531C47C00ABA9E6 = {
+			isa = PBXGroup;
+			children = (
+				A99579CC1531C47C00ABA9E6 /* EDSidebar */,
+				A99579C41531C47C00ABA9E6 /* Frameworks */,
+				A99579C21531C47C00ABA9E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A99579C21531C47C00ABA9E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A99579C11531C47C00ABA9E6 /* EDSidebar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A99579C41531C47C00ABA9E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A9957A001531CB1600ABA9E6 /* QuartzCore.framework */,
+				A99579C51531C47C00ABA9E6 /* Cocoa.framework */,
+				A99579C71531C47C00ABA9E6 /* MacRuby.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A99579CC1531C47C00ABA9E6 /* EDSidebar */ = {
+			isa = PBXGroup;
+			children = (
+				A99579DC1531C47C00ABA9E6 /* AppDelegate.rb */,
+				A99579FA1531C8E200ABA9E6 /* BlackCell.rb */,
+				A99579E61531C4B200ABA9E6 /* EDSideBar */,
+				A99579D51531C47C00ABA9E6 /* Resources */,
+				A99579D91531C47C00ABA9E6 /* Other Sources */,
+				A99579CD1531C47C00ABA9E6 /* Supporting Files */,
+			);
+			path = EDSidebar;
+			sourceTree = "<group>";
+		};
+		A99579CD1531C47C00ABA9E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A99579CE1531C47C00ABA9E6 /* EDSidebar-Info.plist */,
+				A99579CF1531C47C00ABA9E6 /* InfoPlist.strings */,
+				A99579D21531C47C00ABA9E6 /* main.m */,
+				A99579D41531C47C00ABA9E6 /* EDSidebar-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A99579D51531C47C00ABA9E6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A9957A061531D22E00ABA9E6 /* EDSideBar.bridgesupport */,
+				A99579EE1531C6A200ABA9E6 /* blue.png */,
+				A99579EF1531C6A200ABA9E6 /* icon1-blue.png */,
+				A99579F01531C6A200ABA9E6 /* icon1-gray.png */,
+				A99579F11531C6A200ABA9E6 /* icon1-white.png */,
+				A99579D61531C47C00ABA9E6 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A99579D91531C47C00ABA9E6 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				A99579DA1531C47C00ABA9E6 /* rb_main.rb */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		A99579E61531C4B200ABA9E6 /* EDSideBar */ = {
+			isa = PBXGroup;
+			children = (
+				A99579E91531C4D100ABA9E6 /* EDSideBar.h */,
+				A99579E71531C4C600ABA9E6 /* EDSideBar.m */,
+			);
+			name = EDSideBar;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		A99579C91531C47C00ABA9E6 /* Deployment */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "--compile --embed";
+			buildConfigurationList = A99579E31531C47C00ABA9E6 /* Build configuration list for PBXLegacyTarget "Deployment" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/local/bin/macruby_deploy;
+			dependencies = (
+				A99579CB1531C47C00ABA9E6 /* PBXTargetDependency */,
+			);
+			name = Deployment;
+			passBuildSettingsInEnvironment = 1;
+			productName = Deployment;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		A99579C01531C47C00ABA9E6 /* EDSidebar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A99579E01531C47C00ABA9E6 /* Build configuration list for PBXNativeTarget "EDSidebar" */;
+			buildPhases = (
+				A99579BD1531C47C00ABA9E6 /* Sources */,
+				A99579BE1531C47C00ABA9E6 /* Frameworks */,
+				A99579BF1531C47C00ABA9E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EDSidebar;
+			productName = EDSidebar;
+			productReference = A99579C11531C47C00ABA9E6 /* EDSidebar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A99579B81531C47C00ABA9E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = A99579BB1531C47C00ABA9E6 /* Build configuration list for PBXProject "EDSidebar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A99579B61531C47C00ABA9E6;
+			productRefGroup = A99579C21531C47C00ABA9E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A99579C01531C47C00ABA9E6 /* EDSidebar */,
+				A99579C91531C47C00ABA9E6 /* Deployment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A99579BF1531C47C00ABA9E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A99579D11531C47C00ABA9E6 /* InfoPlist.strings in Resources */,
+				A99579D81531C47C00ABA9E6 /* MainMenu.xib in Resources */,
+				A99579DB1531C47C00ABA9E6 /* rb_main.rb in Resources */,
+				A99579DD1531C47C00ABA9E6 /* AppDelegate.rb in Resources */,
+				A99579F21531C6A200ABA9E6 /* blue.png in Resources */,
+				A99579F31531C6A200ABA9E6 /* icon1-blue.png in Resources */,
+				A99579F41531C6A200ABA9E6 /* icon1-gray.png in Resources */,
+				A99579F51531C6A200ABA9E6 /* icon1-white.png in Resources */,
+				A99579FB1531C8E200ABA9E6 /* BlackCell.rb in Resources */,
+				A9957A071531D22E00ABA9E6 /* EDSideBar.bridgesupport in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A99579BD1531C47C00ABA9E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A99579D31531C47C00ABA9E6 /* main.m in Sources */,
+				A99579E81531C4C600ABA9E6 /* EDSideBar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A99579CB1531C47C00ABA9E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A99579C01531C47C00ABA9E6 /* EDSidebar */;
+			targetProxy = A99579CA1531C47C00ABA9E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A99579CF1531C47C00ABA9E6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A99579D01531C47C00ABA9E6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A99579D61531C47C00ABA9E6 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A99579D71531C47C00ABA9E6 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A99579DE1531C47C00ABA9E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A99579DF1531C47C00ABA9E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A99579E11531C47C00ABA9E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EDSidebar/EDSidebar-Prefix.pch";
+				INFOPLIST_FILE = "EDSidebar/EDSidebar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A99579E21531C47C00ABA9E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EDSidebar/EDSidebar-Prefix.pch";
+				INFOPLIST_FILE = "EDSidebar/EDSidebar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A99579E41531C47C00ABA9E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		A99579E51531C47C00ABA9E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A99579BB1531C47C00ABA9E6 /* Build configuration list for PBXProject "EDSidebar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A99579DE1531C47C00ABA9E6 /* Debug */,
+				A99579DF1531C47C00ABA9E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A99579E01531C47C00ABA9E6 /* Build configuration list for PBXNativeTarget "EDSidebar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A99579E11531C47C00ABA9E6 /* Debug */,
+				A99579E21531C47C00ABA9E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A99579E31531C47C00ABA9E6 /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A99579E41531C47C00ABA9E6 /* Debug */,
+				A99579E51531C47C00ABA9E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A99579B81531C47C00ABA9E6 /* Project object */;
+}

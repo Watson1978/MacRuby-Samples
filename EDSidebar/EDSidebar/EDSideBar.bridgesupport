@@ -1,0 +1,18 @@
+<?xml version='1.0'?>
+<!DOCTYPE signatures SYSTEM "file://localhost/System/Library/DTDs/BridgeSupport.dtd">
+<signatures version='1.0'>
+<enum name='ECSideBarLayoutBottom' value='2'/>
+<enum name='ECSideBarLayoutCenter' value='1'/>
+<enum name='ECSideBarLayoutTop' value='0'/>
+<class name='EDSideBar'>
+<method selector='animateSelection'>
+<retval type='B'/>
+</method>
+<method selector='setAnimateSelection:'>
+<arg type='B' index='0'/>
+</method>
+</class>
+<informal_protocol name='EDSideBarDelegate'>
+<method type64='v32@0:8@16q24' type='v16@0:4@8i12' selector='sideBar:didSelectButton:'/>
+</informal_protocol>
+</signatures>
